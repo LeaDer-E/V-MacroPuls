@@ -101,7 +101,7 @@
       <em>[docs/screenshots/smart-keys-dark-en.png]</em>
     </td>
     <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/smart-keys-light-ar.png" alt="Smart Keys Page (Light Mode, Arabic RTL)" width="440" /> -->
+      <img src="docs/screenshots/smart-keys-light-ar.png" alt="Smart Keys Page (Light Mode, Arabic RTL)" width="440" />
       <em>[docs/screenshots/smart-keys-light-ar.png]</em>
     </td>
   </tr>
@@ -111,11 +111,11 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/autopresser-studio-dark-ar.png" alt="Auto Presser Studio (Dark Mode, Arabic)" width="440" /> -->
+      <img src="docs/screenshots/autopresser-studio-dark-ar.png" alt="Auto Presser Studio (Dark Mode, Arabic)" width="440" />
       <em>[docs/screenshots/autopresser-studio-dark-ar.png]</em>
     </td>
     <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/test-lab-sweep-light-ar.png" alt="Test Lab 20-Method Sweep (Light Mode, Arabic)" width="440" /> -->
+      <img src="docs/screenshots/test-lab-sweep-light-ar.png" alt="Test Lab 20-Method Sweep (Light Mode, Arabic)" width="440" />
       <em>[docs/screenshots/test-lab-sweep-light-ar.png]</em>
     </td>
   </tr>
@@ -125,11 +125,11 @@
   </tr>
   <tr>
     <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/settings-page-dark-en.png" alt="Settings Page (Dark Mode, English)" width="440" /> -->
+      <img src="docs/screenshots/settings-page-dark-en.png" alt="Settings Page (Dark Mode, English)" width="440" />
       <em>[docs/screenshots/settings-page-dark-en.png]</em>
     </td>
     <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/about-modal-light-ar.png" alt="About Modal (Light Mode, Arabic)" width="440" /> -->
+      <img src="docs/screenshots/about-modal-light-ar.png" alt="About Modal (Light Mode, Arabic)" width="440" />
       <em>[docs/screenshots/about-modal-light-ar.png]</em>
     </td>
   </tr>
@@ -139,8 +139,8 @@
   </tr>
 </table>
 
-<!-- Wide special view: Floating Recording Stop Indicator -->
-<!-- <p align="center"><img src="docs/screenshots/floating-stop-pill.png" alt="Floating Stop Recording Pill" width="600" /></p> -->
+Wide special view: Floating Recording Stop Indicator
+<p align="center"><img src="docs/screenshots/floating-stop-pill.png" alt="Floating Stop Recording Pill" width="600" /></p>
 
 *Screenshots are captured at 1180x740 logical resolution on Windows 11 with High-DPI `PassThrough` scaling enabled.*
 
