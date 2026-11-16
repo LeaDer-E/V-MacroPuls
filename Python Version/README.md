@@ -97,7 +97,7 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/smart-keys-dark-en.png" alt="Smart Keys Page (Dark Mode, English)" width="440" /> -->
+      <img src="docs/screenshots/smart-keys-dark-en.png" alt="Smart Keys Page (Dark Mode, English)" width="440" />
       <em>[docs/screenshots/smart-keys-dark-en.png]</em>
     </td>
     <td align="center" width="50%">
