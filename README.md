@@ -105,53 +105,57 @@ High-precision desktop macro automation, smart key chord studio, multi-tab backg
 
 > Screenshot image links below are commented out until captured from a live Windows session. See [Manual verification checklist](#manual-verification-checklist) and `docs/screenshots/README.md` for exact filenames and capture instructions.
 
-&lt;table&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
-      &lt;!-- &lt;img src=&quot;docs/screenshots/smart-keys-dark-en.png&quot; alt=&quot;Smart Keys Page (Dark Mode, English)&quot; width=&quot;440&quot; /&gt; --&gt;
-      &lt;em&gt;[docs/screenshots/smart-keys-dark-en.png]&lt;/em&gt;
-    &lt;/td&gt;
-    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
-      &lt;!-- &lt;img src=&quot;docs/screenshots/smart-keys-light-ar.png&quot; alt=&quot;Smart Keys Page (Light Mode, Arabic RTL)&quot; width=&quot;440&quot; /&gt; --&gt;
-      &lt;em&gt;[docs/screenshots/smart-keys-light-ar.png]&lt;/em&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Smart Keys Studio (Dark · LTR English)&lt;/strong&gt; — Collapsible macro sidebar, excluded-apps horizontal scroll box, and draggable step cards.&lt;/td&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Smart Keys Studio (Light · RTL Arabic)&lt;/strong&gt; — Mirrored right-to-left layout with bundled Tajawal typography and Eastern Arabic numerals.&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
-      &lt;!-- &lt;img src=&quot;docs/screenshots/autopresser-studio-dark-ar.png&quot; alt=&quot;Auto Presser Studio (Dark Mode, Arabic)&quot; width=&quot;440&quot; /&gt; --&gt;
-      &lt;em&gt;[docs/screenshots/autopresser-studio-dark-ar.png]&lt;/em&gt;
-    &lt;/td&gt;
-    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
-      &lt;!-- &lt;img src=&quot;docs/screenshots/test-lab-sweep-light-ar.png&quot; alt=&quot;Test Lab 20-Method Sweep (Light Mode, Arabic)&quot; width=&quot;440&quot; /&gt; --&gt;
-      &lt;em&gt;[docs/screenshots/test-lab-sweep-light-ar.png]&lt;/em&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Multi-Tab Auto Presser Studio&lt;/strong&gt; — Tinted multi-tab scroll bar, 36 built-in 2-row key tiles, Smart Key link toggle, and 8-mode mouse clicker.&lt;/td&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Interactive Test Lab &amp;amp; 3-Mode 20-Method Sweep&lt;/strong&gt; — Background test toggle, Python/Template/Macro sweep modes, and 2-line diagnostic log cards.&lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
-      &lt;!-- &lt;img src=&quot;docs/screenshots/settings-page-dark-en.png&quot; alt=&quot;Settings Page (Dark Mode, English)&quot; width=&quot;440&quot; /&gt; --&gt;
-      &lt;em&gt;[docs/screenshots/settings-page-dark-en.png]&lt;/em&gt;
-    &lt;/td&gt;
-    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
-      &lt;!-- &lt;img src=&quot;docs/screenshots/about-modal-light-ar.png&quot; alt=&quot;About Modal (Light Mode, Arabic)&quot; width=&quot;440&quot; /&gt; --&gt;
-      &lt;em&gt;[docs/screenshots/about-modal-light-ar.png]&lt;/em&gt;
-    &lt;/td&gt;
-  &lt;/tr&gt;
-  &lt;tr&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Settings &amp;amp; Hardware Diagnostics&lt;/strong&gt; — Top Theme &amp;amp; 36-Palette card, Ring-0 Interception &amp;amp; PS/2 Port 0x60 diagnostic panels, and bottom Emergency Stop card.&lt;/td&gt;
-    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Adaptive About Overlay&lt;/strong&gt; — Custom-painted vector automation banner, V-Blade logo badge, and one-click contact copy pills.&lt;/td&gt;
-  &lt;/tr&gt;
-&lt;/table&gt;
+## Screenshots
 
-&lt;!-- Wide special view: Floating Recording Stop Indicator --&gt;
-&lt;!-- &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;docs/screenshots/floating-stop-pill.png&quot; alt=&quot;Floating Stop Recording Pill&quot; width=&quot;600&quot; /&gt;&lt;/p&gt; --&gt;
+> Screenshot image links below are commented out until captured from a live Windows session. See [Manual verification checklist](#manual-verification-checklist) and `docs/screenshots/README.md` for exact filenames and capture instructions.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/smart-keys-dark-en.png" alt="Smart Keys Page (Dark Mode, English)" width="440" />
+      <em>[docs/screenshots/smart-keys-dark-en.png]</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/smart-keys-light-ar.png" alt="Smart Keys Page (Light Mode, Arabic RTL)" width="440" />
+      <em>[docs/screenshots/smart-keys-light-ar.png]</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Smart Keys Studio (Dark · LTR English)</strong> — Collapsible macro sidebar, excluded-apps horizontal scroll box, and draggable step cards.</td>
+    <td align="center"><strong>Smart Keys Studio (Light · RTL Arabic)</strong> — Mirrored right-to-left layout with bundled Tajawal typography and Eastern Arabic numerals.</td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/autopresser-studio-dark-ar.png" alt="Auto Presser Studio (Dark Mode, Arabic)" width="440" />
+      <em>[docs/screenshots/autopresser-studio-dark-ar.png]</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/test-lab-sweep-light-ar.png" alt="Test Lab 20-Method Sweep (Light Mode, Arabic)" width="440" />
+      <em>[docs/screenshots/test-lab-sweep-light-ar.png]</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Multi-Tab Auto Presser Studio</strong> — Tinted multi-tab scroll bar, 36 built-in 2-row key tiles, Smart Key link toggle, and 8-mode mouse clicker.</td>
+    <td align="center"><strong>Interactive Test Lab &amp; 3-Mode 20-Method Sweep</strong> — Background test toggle, Python/Template/Macro sweep modes, and 2-line diagnostic log cards.</td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/settings-page-dark-en.png" alt="Settings Page (Dark Mode, English)" width="440" />
+      <em>[docs/screenshots/settings-page-dark-en.png]</em>
+    </td>
+    <td align="center" width="50%">
+      <img src="docs/screenshots/about-modal-light-ar.png" alt="About Modal (Light Mode, Arabic)" width="440" />
+      <em>[docs/screenshots/about-modal-light-ar.png]</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Settings &amp; Hardware Diagnostics</strong> — Top Theme &amp; 36-Palette card, Ring-0 Interception &amp; PS/2 Port 0x60 diagnostic panels, and bottom Emergency Stop card.</td>
+    <td align="center"><strong>Adaptive About Overlay</strong> — Custom-painted vector automation banner, V-Blade logo badge, and one-click contact copy pills.</td>
+  </tr>
+</table>
+
+Wide special view: Floating Recording Stop Indicator
+<p align="center"><img src="docs/screenshots/floating-stop-pill.png" alt="Floating Stop Recording Pill" width="600" /></p>
 
 *Screenshots are captured at 1180x740 logical resolution on Windows 11 with High-DPI `PassThrough` scaling enabled.*
 
