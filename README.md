@@ -1,10 +1,33 @@
-# V-MacroPlus v3.9.0 (C++20 / Qt 6 Edition)
+<p align="center">
+<img src="assets/icon.png" alt="V-MacroPlus Logo" width="130" />
+</p>
+<h1 align="center">
+V-MacroPlus v3.9.0 (C++20 / Qt 6 Edition)
+</h1>
 
+<div align="center">
 High-precision desktop macro automation, smart key chord studio, multi-tab background auto-presser, 240 FPS input recorder, and 22-method hardware/kernel/MCU input testing suite built natively in **C++20** and **Qt 6** for **Windows** and **Linux**, with an embedded **Python Mini-Script Runner** for user-written automation scripts and per-method sweeps.
+</div>
+
+<br>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-3.9.0-8B5CF6?style=flat-square" alt="Version" />
+  <img src="https://img.shields.io/badge/C%2B%2B-20-3B82F6?style=flat-square" alt="C++" />
+  <img src="https://img.shields.io/badge/UI-Qt%206.12%2B-10B981?style=flat-square" alt="UI Framework" />
+  <img src="https://img.shields.io/badge/platform-Windows%2010%2F11%20%7C%20Linux%20%7C%20macOS%20(fallback)-06B6D4?style=flat-square" alt="Platform" />
+  <img src="https://img.shields.io/badge/license-MIT%20(proposed)-F59E0B?style=flat-square" alt="License" />
+</p>
+
+<!-- Uncomment once docs/screenshots/hero-smart-keys-dark-ar.png is captured:
+<br />
+<img src="docs/screenshots/hero-smart-keys-dark-ar.png" alt="V-MacroPlus Smart Keys Studio" width="900" />
+-->
+
+</div>
 
 Repository: [https://github.com/LeaDer-E/V-AutoKeyPresser](https://github.com/LeaDer-E/V-AutoKeyPresser)
 
----
 
 ## Key Features
 
