@@ -1,23 +1,25 @@
-<div align="center">
+&lt;div align=&quot;center&quot;&gt;
 
-<img src="assets/icon.png" alt="V-MacroPlus Logo" width="130" />
+&lt;img src=&quot;assets/icon.png&quot; alt=&quot;V-MacroPlus Logo&quot; width=&quot;130&quot; /&gt;
 
-# V-MacroPlus — Low-Level Hardware Macro, Smart Keys & Multi-Tab Auto Presser Studio
+# V-MacroPlus (C++20 / Qt 6 Edition) — Low-Level Hardware Macro, Smart Keys & Multi-Tab Auto Presser Studio
 
-**A low-level Windows and Linux keyboard and mouse automation studio built with Python and PySide6, combining hardware scan-code Smart Keys, a 240 FPS timeline recorder, a multi-tab Auto Key and Mouse Presser studio, 20 switchable foreground and background input injection engines, and a 100% custom-painted glassmorphic interface in 10 languages.**
+**A native low-level Windows and Linux keyboard and mouse automation studio built with C++20 and Qt 6, combining hardware scan-code Smart Keys, embedded Python Mini-Script execution, a 240 FPS timeline recorder, a multi-tab Auto Key and Mouse Presser studio, 22 switchable foreground, background, and external USB HID microcontroller input injection engines, and a 100% custom-painted glassmorphic interface in 10 languages.**
 
-![Version](https://img.shields.io/badge/version-3.9.0-8B5CF6?style=flat-square)
-![Python](https://img.shields.io/badge/python-3.12%2B-3B82F6?style=flat-square)
-![UI Framework](https://img.shields.io/badge/UI-PySide6%206.6%2B-10B981?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20%7C%20Linux%20%7C%20macOS%20(fallback)-06B6D4?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT%20(proposed)-F59E0B?style=flat-square)
 
-<!-- Uncomment once docs/screenshots/hero-smart-keys-dark-ar.png is captured:
-<br />
-<img src="docs/screenshots/hero-smart-keys-dark-ar.png" alt="V-MacroPlus Smart Keys Studio" width="900" />
--->
 
-</div>
+
+
+
+
+
+
+&lt;!-- Uncomment once docs/screenshots/hero-smart-keys-dark-ar.png is captured:
+&lt;br /&gt;
+&lt;img src=&quot;docs/screenshots/hero-smart-keys-dark-ar.png&quot; alt=&quot;V-MacroPlus Smart Keys Studio&quot; width=&quot;900&quot; /&gt;
+--&gt;
+
+&lt;/div&gt;
 
 ## Table of contents
 
@@ -94,53 +96,53 @@
 
 > Screenshot image links below are commented out until captured from a live Windows session. See [Manual verification checklist](#manual-verification-checklist) and `docs/screenshots/README.md` for exact filenames and capture instructions.
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/smart-keys-dark-en.png" alt="Smart Keys Page (Dark Mode, English)" width="440" /> -->
-      <em>[docs/screenshots/smart-keys-dark-en.png]</em>
-    </td>
-    <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/smart-keys-light-ar.png" alt="Smart Keys Page (Light Mode, Arabic RTL)" width="440" /> -->
-      <em>[docs/screenshots/smart-keys-light-ar.png]</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Smart Keys Studio (Dark · LTR English)</strong> — Collapsible macro sidebar, excluded-apps horizontal scroll box, and draggable step cards.</td>
-    <td align="center"><strong>Smart Keys Studio (Light · RTL Arabic)</strong> — Mirrored right-to-left layout with bundled Tajawal typography and Eastern Arabic numerals.</td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/autopresser-studio-dark-ar.png" alt="Auto Presser Studio (Dark Mode, Arabic)" width="440" /> -->
-      <em>[docs/screenshots/autopresser-studio-dark-ar.png]</em>
-    </td>
-    <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/test-lab-sweep-light-ar.png" alt="Test Lab 20-Method Sweep (Light Mode, Arabic)" width="440" /> -->
-      <em>[docs/screenshots/test-lab-sweep-light-ar.png]</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Multi-Tab Auto Presser Studio</strong> — Tinted multi-tab scroll bar, 36 built-in 2-row key tiles, Smart Key link toggle, and 8-mode mouse clicker.</td>
-    <td align="center"><strong>Interactive Test Lab &amp; 3-Mode 20-Method Sweep</strong> — Background test toggle, Python/Template/Macro sweep modes, and 2-line diagnostic log cards.</td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/settings-page-dark-en.png" alt="Settings Page (Dark Mode, English)" width="440" /> -->
-      <em>[docs/screenshots/settings-page-dark-en.png]</em>
-    </td>
-    <td align="center" width="50%">
-      <!-- <img src="docs/screenshots/about-modal-light-ar.png" alt="About Modal (Light Mode, Arabic)" width="440" /> -->
-      <em>[docs/screenshots/about-modal-light-ar.png]</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Settings &amp; Hardware Diagnostics</strong> — Top Theme &amp; 36-Palette card, Ring-0 Interception &amp; PS/2 Port 0x60 diagnostic panels, and bottom Emergency Stop card.</td>
-    <td align="center"><strong>Adaptive About Overlay</strong> — Custom-painted vector automation banner, V-Blade logo badge, and one-click contact copy pills.</td>
-  </tr>
-</table>
+&lt;table&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;!-- &lt;img src=&quot;docs/screenshots/smart-keys-dark-en.png&quot; alt=&quot;Smart Keys Page (Dark Mode, English)&quot; width=&quot;440&quot; /&gt; --&gt;
+      &lt;em&gt;[docs/screenshots/smart-keys-dark-en.png]&lt;/em&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;!-- &lt;img src=&quot;docs/screenshots/smart-keys-light-ar.png&quot; alt=&quot;Smart Keys Page (Light Mode, Arabic RTL)&quot; width=&quot;440&quot; /&gt; --&gt;
+      &lt;em&gt;[docs/screenshots/smart-keys-light-ar.png]&lt;/em&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Smart Keys Studio (Dark · LTR English)&lt;/strong&gt; — Collapsible macro sidebar, excluded-apps horizontal scroll box, and draggable step cards.&lt;/td&gt;
+    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Smart Keys Studio (Light · RTL Arabic)&lt;/strong&gt; — Mirrored right-to-left layout with bundled Tajawal typography and Eastern Arabic numerals.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;!-- &lt;img src=&quot;docs/screenshots/autopresser-studio-dark-ar.png&quot; alt=&quot;Auto Presser Studio (Dark Mode, Arabic)&quot; width=&quot;440&quot; /&gt; --&gt;
+      &lt;em&gt;[docs/screenshots/autopresser-studio-dark-ar.png]&lt;/em&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;!-- &lt;img src=&quot;docs/screenshots/test-lab-sweep-light-ar.png&quot; alt=&quot;Test Lab 20-Method Sweep (Light Mode, Arabic)&quot; width=&quot;440&quot; /&gt; --&gt;
+      &lt;em&gt;[docs/screenshots/test-lab-sweep-light-ar.png]&lt;/em&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Multi-Tab Auto Presser Studio&lt;/strong&gt; — Tinted multi-tab scroll bar, 36 built-in 2-row key tiles, Smart Key link toggle, and 8-mode mouse clicker.&lt;/td&gt;
+    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Interactive Test Lab &amp;amp; 3-Mode 20-Method Sweep&lt;/strong&gt; — Background test toggle, Python/Template/Macro sweep modes, and 2-line diagnostic log cards.&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;!-- &lt;img src=&quot;docs/screenshots/settings-page-dark-en.png&quot; alt=&quot;Settings Page (Dark Mode, English)&quot; width=&quot;440&quot; /&gt; --&gt;
+      &lt;em&gt;[docs/screenshots/settings-page-dark-en.png]&lt;/em&gt;
+    &lt;/td&gt;
+    &lt;td align=&quot;center&quot; width=&quot;50%&quot;&gt;
+      &lt;!-- &lt;img src=&quot;docs/screenshots/about-modal-light-ar.png&quot; alt=&quot;About Modal (Light Mode, Arabic)&quot; width=&quot;440&quot; /&gt; --&gt;
+      &lt;em&gt;[docs/screenshots/about-modal-light-ar.png]&lt;/em&gt;
+    &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Settings &amp;amp; Hardware Diagnostics&lt;/strong&gt; — Top Theme &amp;amp; 36-Palette card, Ring-0 Interception &amp;amp; PS/2 Port 0x60 diagnostic panels, and bottom Emergency Stop card.&lt;/td&gt;
+    &lt;td align=&quot;center&quot;&gt;&lt;strong&gt;Adaptive About Overlay&lt;/strong&gt; — Custom-painted vector automation banner, V-Blade logo badge, and one-click contact copy pills.&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
 
-<!-- Wide special view: Floating Recording Stop Indicator -->
-<!-- <p align="center"><img src="docs/screenshots/floating-stop-pill.png" alt="Floating Stop Recording Pill" width="600" /></p> -->
+&lt;!-- Wide special view: Floating Recording Stop Indicator --&gt;
+&lt;!-- &lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;docs/screenshots/floating-stop-pill.png&quot; alt=&quot;Floating Stop Recording Pill&quot; width=&quot;600&quot; /&gt;&lt;/p&gt; --&gt;
 
 *Screenshots are captured at 1180x740 logical resolution on Windows 11 with High-DPI `PassThrough` scaling enabled.*
 
@@ -148,7 +150,7 @@
 
 ### Smart Keys, custom macros, and Python mini-scripting
 
-Smart Keys (`app/ui/pages/combos_page.py` and `app/domain/macro_engine.py`) bind a physical key, a multi-key chord (up to 3 simultaneous keys in interactive capture, e.g., `Ctrl + Shift + K`), any of 5 mouse buttons (`MouseLeft`, `MouseRight`, `MouseMiddle`, `MouseBack`, `MouseForward`), mouse wheel scroll (`ScrollUp`, `ScrollDown`), a hardware media/launch key (`Calculator`, `VolumeUp`, `PlayPause`), or no key at all (Manual Run mode) to an ordered sequence of automation steps.
+Smart Keys (`src/ui/pages/CombosPage.cpp` and `src/engine/MacroEngine.cpp`) bind a physical key, a multi-key chord (up to 3 simultaneous keys in interactive capture, e.g., `Ctrl + Shift + K`), any of 5 mouse buttons (`MouseLeft`, `MouseRight`, `MouseMiddle`, `MouseBack`, `MouseForward`), mouse wheel scroll (`ScrollUp`, `ScrollDown`), a hardware media/launch key (`Calculator`, `VolumeUp`, `PlayPause`), or no key at all (Manual Run mode) to an ordered sequence of automation steps.
 
 | Execution Mode | Internal ID | Trigger Behavior | Stopping Condition | Configurable Options |
 | :--- | :--- | :--- | :--- | :--- |
@@ -167,12 +169,12 @@ Each Smart Key also supports:
   4. `+ Mouse Scroll` (`mouse_scroll`): Scroll the mouse wheel in 4 directions (`down`, `up`, `left`, `right`) by `1..100` notches.
   5. `+ Type Text` (`type_text`): Inject arbitrary Unicode strings via `KEYEVENTF_UNICODE`.
   6. `+ Python Mini-Script` (`python_script`): Execute multi-line Python automation loops (`for`, `while`, `if/else`) using built-in helpers (`print(text, enter=False)`, `type_text(text)`, `press(key, hold_ms=0)`, `wait(ms)`, `click(x, y, button="left")`) that cooperatively check the global stop event on every action.
-  7. `+ Open Folder` (`open_folder`): Open any local directory or file path via `os.startfile` or `xdg-open`.
+  7. `+ Open Folder / App` (`open_folder`): Open any local folder (`Folder...` button) or launch any executable program, script, or file (`.exe`, `.bat`, `.cmd`, `.lnk`, `.py` via the `Program / File...` button, automatically setting the executable's parent directory as its working directory).
   8. `+ PowerShell` / `+ CMD` (`powershell`, `cmd`): Run a hidden background shell command (`CREATE_NO_WINDOW`).
 
 ### Multi-Tab Auto Key and Mouse Presser Studio
 
-The **Auto Presser** page (`app/ui/pages/autopresser_page.py` and `app/domain/autopresser_engine.py`) integrates the complete [V-AutoKeyPresser](https://github.com/LeaDer-E/V-AutoKeyPresser) multi-tab studio:
+The **Auto Presser** page (`src/ui/pages/AutoPresserPage.cpp` and `src/engine/AutoPresserEngine.cpp`) integrates the complete [V-AutoKeyPresser](https://www.google.com/search?q=https://github.com/LeaDer-E/V-AutoKeyPresser) multi-tab studio:
 
 | Feature Area | Implementation Details |
 | :--- | :--- |
@@ -185,7 +187,7 @@ The **Auto Presser** page (`app/ui/pages/autopresser_page.py` and `app/domain/au
 
 ### Native mouse and keyboard recorder
 
-The **Recordings** page (`app/ui/pages/recorder_page.py`) combines a live low-level recorder (`WH_KEYBOARD_LL` + `WH_MOUSE_LL`) with a persistent Saved Recordings Library (`macros/*.json`) in a collapsible sidebar.
+The **Recordings** page (`src/ui/pages/RecorderPage.cpp`) combines a live low-level recorder (`WH_KEYBOARD_LL` + `WH_MOUSE_LL`) with a persistent Saved Recordings Library (`macros/*.json`) in a collapsible sidebar.
 
 | Playback / Repeat Option | Config Key | Behavior | Range / Values |
 | :--- | :--- | :--- | :--- |
@@ -200,7 +202,7 @@ The **Recordings** page (`app/ui/pages/recorder_page.py`) combines a live low-le
 
 ### Interactive Test Lab and 3-mode 20-method sweep
 
-The **Test Lab** page (`app/ui/pages/test_page.py`) lets you test any single method or sweep all **20 input methods** sequentially against either the built-in `_LiveInputSandboxBox` or any external application window (`test_app_combo`), with a dedicated **Background Test (Do not focus window)** toggle (`tog_test_bg`).
+The **Test Lab** page (`src/ui/pages/TestPage.cpp`) lets you test any single method or sweep all **20 input methods** sequentially against either the built-in `_LiveInputSandboxBox` or any external application window (`test_app_combo`), with a dedicated **Background Test (Do not focus window)** toggle (`tog_test_bg`).
 
 During any test or 20-method sweep, V-MacroPlus enforces `strict_no_fallback = True`:
 - Every method `1..20` executes its own genuine hardware, driver, or background `HWND` protocol and **never** silently falls back to `sendinput_scancode`.
@@ -226,7 +228,7 @@ When using **Mode 5 (`sweep_20_template`)**, **Mode 6 (`sweep_20_macro` prefix)*
 key="Enter" {method_num}: Hello V-MacroPlus worked with {method_id} \n
 ```
 
-How `expand_and_execute_method_template()` in `app/domain/autopresser_engine.py` executes the expression above for Method `11` (`postmessage`):
+How `expand_and_execute_method_template()` in `src/engine/AutoPresserEngine.cpp` executes the expression above for Method `11` (`postmessage`):
 1. Parses `key="Enter"` at the start -> dispatches an `Enter` key press strictly via `postmessage`.
 2. Expands `{method_num}: Hello V-MacroPlus worked with {method_id} ` -> types `11: Hello V-MacroPlus worked with postmessage ` strictly via `postmessage`.
 3. Parses `\n` at the end -> dispatches a final `Enter` key press strictly via `postmessage`.
@@ -249,7 +251,7 @@ How `expand_and_execute_method_template()` in `app/domain/autopresser_engine.py`
 
 ##### Case-Insensitivity & Multi-Directive Chaining Examples
 
-Because the template tokenizer (`_DIRECTIVE_PATTERN` in `app/domain/autopresser_engine.py`) is compiled with `re.IGNORECASE` and scans left-to-right, you can combine multiple `Key="..."` directives, `wait=...` pauses, escape sequences (`\n`, `\t`), and `{...}` variables anywhere in a single template line:
+Because the template tokenizer (`_DIRECTIVE_PATTERN` in `src/engine/AutoPresserEngine.cpp`) is compiled with `re.IGNORECASE` and scans left-to-right, you can combine multiple `Key="..."` directives, `wait=...` pauses, escape sequences (`\n`, `\t`), and `{...}` variables anywhere in a single template line:
 
 ```text
 # Example 1: Press Tab, type method number & ID, wait 100ms, then press Enter
@@ -267,7 +269,7 @@ Key="F1" wait=80 Key="Space" [{method_num_02}] {target_app} ({mode}) \t OK \n
 
 ##### Complete Catalog of 92+ Supported `<KeyName>` Values for `Key="<KeyName>"`
 
-Every key name below is resolved through `scancode_for_label()` (`app/domain/win32_input.py`) and `dispatch_autopresser_key()` (`app/domain/autopresser_engine.py`):
+Every key name below is resolved through `scancode_for_label()` (`src/platform/Win32Input.cpp`) and `dispatch_autopresser_key()` (`src/engine/AutoPresserEngine.cpp`):
 
 | Key Category | Supported `<KeyName>` Values (Case-Insensitive) |
 | :--- | :--- |
@@ -281,22 +283,39 @@ Every key name below is resolved through `scancode_for_label()` (`app/domain/win
 | **Mouse Side Buttons (2)** | `MouseBack` (or `XButton1` / `mouse_x1`), `MouseForward` (or `XButton2` / `mouse_x2`) |
 | **Hardware Media & Launch Keys (14)** | `VolumeMute`, `VolumeDown`, `VolumeUp`, `PlayPause`, `NextTrack`, `PrevTrack`, `MediaStop`, `Calculator`, `MyComputer`, `LaunchMail`, `MediaPlayer`, `BrowserBack`, `BrowserForward`, `BrowserRefresh` |
 
-#### Editable Python Per-Method Script (Mode 4: `sweep_20`)
+#### Editable Python Per-Method Script, Humanized Timing & Shared Script Library (Mode 4: `sweep_20` & Smart Keys)
 
-In **Mode 4**, the `QPlainTextEdit` editor runs your Python code once for each method `1..20`:
+Both **Test Lab (`Mode 4: sweep_20`)** and the **Smart Keys Python Mini-Script Step (`python_script`)** share a unified **Python Script Presets & User Library Bar** (`src/engine/PythonScriptRunner.cpp`, persisted in `AppData/python_scripts.json`):
+- **6 Built-In Ready-to-Use Presets:**
+  1. `1. [Preset] In-Game Chat Sweep (Open Enter -> Type Method -> Send Enter)`: Presses `Enter` to open chat, waits naturally, types the method number and ID, and presses `Enter` a second time to send—preventing odd/even chat box toggle skipping.
+  2. `2. [Preset] Humanized 3D Game Keys (WASD Move + 1/2/3 Switch + Space Jump)`: Uses multi-frame hardware hold durations (`65..95 ms` for weapon/jump keys and `200..380 ms` for `WASD` movement) with micro-jitter.
+  3. `3. [Preset] In-Match 3D Crosshair Click & Relative Camera Aim (in_game_3d + move_rel)`: Rotates 3D cameras using relative `MOUSEEVENTF_MOVE` deltas (`move_rel`) and clicks at the locked crosshair without calling `SetCursorPos`.
+  4. `4. [Preset] Humanized Natural Keyboard Typing Rhythm (human=True)`: Types characters with natural human finger hold times (`42..78 ms`) and variable inter-key rhythm (`45..92 ms`).
+  5. `5. [Preset] Randomized Human Skill Combo Loop (1 -> 2 -> 3 -> Tab)`: Cycles skill keys with randomized human hold and wait intervals.
+  6. `6. [Preset] Standard Per-Method Diagnostic Script (Method N [id] - OK)`.
+- **Save & Delete Custom Scripts Across the App:** Enter a script name in the toolbar and click **`+ Save Script`** in either **Test Lab** or **Smart Keys** to save your script to `python_scripts.json`. Saved scripts appear at the top of the dropdown (`* Saved Script: ...`) in both pages immediately.
+
+##### Humanized Timing, Micro-Jitter & 3D Game Functions Reference
+
+| Function Signature | Purpose & Humanization Behavior |
+| :--- | :--- |
+| `press(key, hold_ms=65, human=False)` | Presses and holds `key` for `hold_ms` milliseconds (default `65 ms` so 60 FPS 3D games register the press across 4+ frames). Pass `human=True` or `hold_ms="human"` to apply automatic `58..95 ms` human finger hold jitter. |
+| `human_press(key, min_hold=58, max_hold=95, min_wait=65, max_wait=130)` | Presses `key` for a randomized human hold duration (`min_hold..max_hold` ms) and automatically waits a randomized human pause (`min_wait..max_wait` ms with Gaussian micro-jitter) afterward. |
+| `hold_key(key, duration_ms=300)` | Holds movement or action keys (`W`, `A`, `S`, `D`, `Space`) down continuously for `duration_ms` so 3D character controllers register sustained movement. |
+| `rand(min_val=60, max_val=110)` | Returns a random integer in `[min_val, max_val]` for custom randomized holds or delays (e.g., `press("w", rand(65, 95))`). |
+| `wait(ms=100)` / `sleep_ms(ms)` | Pauses execution for a fixed `ms` milliseconds. |
+| `human_wait(min_ms=65, max_ms=130)` | Pauses execution for a randomized human interval (`min_ms..max_ms` ms) plus microsecond Gaussian jitter (`sigma = 2.5 ms`). |
+| `print(*args, enter=False, human=False, delay_ms=0)` | Types text using the active method. Set `human=True` to type each character at natural human keyboard speed (`42..78 ms` hold, `45..92 ms` gap) instead of instant bot speed. |
+| `type_text(text, enter=False, human=False, delay_ms=0)` | Identical to `print()` for single string payloads, supporting `{method_num}`, `{method_id}`, and `human=True`. |
+| `click(button="left", x=None, y=None, hold_ms=68, human=False, in_game_3d=False)` | Clicks any of the 5 mouse buttons (`"left"`, `"right"`, `"middle"`, `"x1"`, `"x2"`). Set `in_game_3d=True` (or omit `x, y`) inside 3D matches to click at the locked crosshair **without** calling `SetCursorPos`. |
+| `move_rel(dx, dy, steps=6, duration_ms=60)` | Dispatches pure relative `MOUSEEVENTF_MOVE` deltas (`dx, dy` without `MOUSEEVENTF_ABSOLUTE`) across `steps` smooth increments to rotate 3D game cameras. |
 
 ```python
-# Python Per-Method Test Script (Executed for each Method 1..20)
-# Available variables: method_num (1..20), method_num_02, method_id, method_name, category, target_app, target_hwnd, mode
-# Available functions (all use ONLY the current method being tested):
-#   print(text, enter=False)  -> Types text via current method
-#   type_text(text)           -> Types text via current method
-#   press(key, hold_ms=20)    -> Presses a key (e.g. "Enter", "Space", "F1")
-#   wait(ms)                  -> Waits in milliseconds
-
-print(f"Method {method_num}: [{method_id}] - OK")
-press("Enter")
-wait(120)
+# Example: Humanized 3D Game Action & Movement Script
+human_press("1", min_hold=65, max_hold=95, min_wait=80, max_wait=130)
+hold_key("W", duration_ms=rand(260, 380))
+move_rel(120, 0, steps=8, duration_ms=80)
+click("left", hold_ms=rand(68, 98), human=True, in_game_3d=True)
 ```
 
 #### Two-Line Structured Activity & Mouse Diagnostic Logs
@@ -318,7 +337,7 @@ Standard user-mode (`Ring-3`) Windows APIs (`SendInput`, `keybd_event`, `mouse_e
 
 1. Download **`Interception.zip`** (`Release v1.0.1`) from the official repository:
    - **[https://github.com/oblitum/Interception/releases](https://github.com/oblitum/Interception/releases)**
-2. Extract `Interception.zip`. Always use the 64-bit **`library/x64/interception.dll`** binary with 64-bit Python and `V-MacroPlus.exe`.
+2. Extract `Interception.zip`. Always use the 64-bit **`library/x64/interception.dll`** binary with 64-bit `V-MacroPlus.exe`.
 3. In **V-MacroPlus -> Settings**, use the **Interception & Ring-0 Kernel Diagnostic Panel**:
    - Click **`Install / Link Interception Files...`** and select `command line installer/install-interception.exe` (runs `install-interception.exe /install` with Administrator privileges).
    - Click **`Install / Link Interception Files...`** again and select `library/x64/interception.dll` (or copy it into the `drivers/` folder opened by **`Open Drivers Folder (drivers)`**).
@@ -334,176 +353,171 @@ Standard user-mode (`Ring-3`) Windows APIs (`SendInput`, `keybd_event`, `mouse_e
 ### Interface, themes, and localization
 
 - **Zero-flicker in-place theme switching (`refresh_widget_tree_theme`):** Switching between Dark and Light modes or across **36 curated HSL color palettes** (3 rows of 12 swatches at the top of Settings) plus the **Custom RGB/Hex Color Picker** updates all pages and child widgets in place without destroying or recreating pages.
-- **Frameless resizable window (`app/ui/window.py`):** Custom-painted outer shell with 8-direction edge and corner mouse resizing (`RESIZE_BORDER = 11 px`) and a minimum size of `1180x660` (default `1240x760`).
+- **Frameless resizable window (`src/ui/MainWindow.cpp`):** Custom-painted outer shell with 8-direction edge and corner mouse resizing (`RESIZE_BORDER = 11 px`) and a minimum size of `1180x660` (default `1240x760`).
 - **Ten built-in languages:** Arabic (`ar`), English (`en`), Spanish (`es`), French (`fr`), German (`de`), Turkish (`tr`), Russian (`ru`), Indonesian (`id`), Persian (`fa`), and Urdu (`ur`).
 
 ### System limits and bounds
 
 | Parameter | Minimum | Maximum | Default | Defined In |
 | :--- | :--- | :--- | :--- | :--- |
-| Interactive chord keys per shortcut | `0` (Manual) | `3` keys | `1` key | `app/ui/widgets.py` (`KeyCaptureButton`) |
-| Auto Presser repeat interval (`interval_ms`) | `10 ms` | `3,600,000 ms` (`1 hr`) | `1000 ms` | `app/domain/autopresser_engine.py` |
-| Auto Presser key hold duration (`hold_ms`) | `10 ms` | `2,000 ms` (`2 s`) | `50 ms` | `app/domain/autopresser_engine.py` |
-| Pre-step / event delay (`delay_ms`) | `1 ms` | `600,000 ms` (`10 min`) | `20 ms` (combo) / `40 ms` (recorder) | `app/ui/pages/combos_page.py`, `recorder_page.py` |
-| Manual-run / Test Lab countdown | `0 ms` | `30,000 ms` / `60,000 ms` | `1000 ms` | `app/ui/pages/test_page.py`, `combos_page.py` |
-| Mouse scroll wheel notches (`scroll_amount`) | `1` notch | `100` notches | `3` notches | `app/domain/models.py`, `combos_page.py` |
-| Mouse coordinate range (`x`, `y`) | `-32,768 px` | `32,768 px` | `500, 500` | `app/domain/autopresser_engine.py` |
-| Playback speed multiplier | `0.25x` | `10.00x` | `1.00x` | `app/ui/pages/recorder_page.py` |
-| Repeat count (`default_repeat_count`) | `0` (infinite) | `99,999` | `5` | `app/ui/pages/recorder_page.py` |
-| Activity & Test Lab log ring buffer | `0` | `200` entries | `200` | `app/domain/autopresser_engine.py`, `test_page.py` |
+| Interactive chord keys per shortcut | `0` (Manual) | `3` keys | `1` key | `src/ui/Widgets.cpp` (`KeyCaptureButton`) |
+| Auto Presser repeat interval (`interval_ms`) | `10 ms` | `3,600,000 ms` (`1 hr`) | `1000 ms` | `src/engine/AutoPresserEngine.cpp` |
+| Auto Presser key hold duration (`hold_ms`) | `10 ms` | `2,000 ms` (`2 s`) | `50 ms` | `src/engine/AutoPresserEngine.cpp` |
+| Pre-step / event delay (`delay_ms`) | `1 ms` | `600,000 ms` (`10 min`) | `20 ms` (combo) / `40 ms` (recorder) | `src/ui/pages/CombosPage.cpp`, `RecorderPage.cpp` |
+| Manual-run / Test Lab countdown | `0 ms` | `30,000 ms` / `60,000 ms` | `1000 ms` | `src/ui/pages/TestPage.cpp`, `CombosPage.cpp` |
+| Mouse scroll wheel notches (`scroll_amount`) | `1` notch | `100` notches | `3` notches | `src/core/Models.h`, `CombosPage.cpp` |
+| Mouse coordinate range (`x`, `y`) | `-32,768 px` | `32,768 px` | `500, 500` | `src/engine/AutoPresserEngine.cpp` |
+| Playback speed multiplier | `0.25x` | `10.00x` | `1.00x` | `src/ui/pages/RecorderPage.cpp` |
+| Repeat count (`default_repeat_count`) | `0` (infinite) | `99,999` | `5` | `src/ui/pages/RecorderPage.cpp` |
+| Activity & Test Lab log ring buffer | `0` | `200` entries | `200` | `src/engine/AutoPresserEngine.cpp`, `TestPage.cpp` |
 
 ## Quick start
 
 ### Requirements
 
-- **Python:** `3.12+` (compatible with Python `3.10+` where `PySide6>=6.6.0` wheels are available).
-- **Runtime and build dependencies (`requirements.txt`):**
-
-```text
-PySide6>=6.6.0       # Qt6 GUI framework, QPainter rendering, QThreadPool workers, QMediaPlayer audio, QLockFile
-pynput>=1.7.6        # Cross-platform keyboard/mouse controller fallback on non-Windows environments
-pyinstaller>=6.0.0   # Standalone executable packager (used by build_exe.py; optional for running from source)
-```
+- **C++ Compiler:** Any **C++20**-compliant compiler:
+  - **Windows:** **MinGW-w64 GCC 13+ / 15.1.0** (bundled with Qt 6 under `C:\Qt\Tools\mingw1510_64`) or **MSVC 2022**.
+  - **Linux:** **GCC 11+** (`g++`) or **Clang 14+**.
+- **Qt Framework:** **Qt 6.5+ / 6.12.0** (`Qt6::Core`, `Qt6::Gui`, `Qt6::Widgets`).
+- **Build System:** **CMake 3.21+** and **Ninja** (or **Qt Creator 12+**).
+- **Optional Runtime for Python Mini-Scripts:** System `python` / `python3` in `PATH` is supported as an optional fallback, while the built-in native C++ `PythonScriptRunner` (`src/engine/PythonScriptRunner.cpp`) parses and executes `for` loops, variables, `rand()`, `press()`, `human_press()`, `hold_key()`, `wait()`, `human_wait()`, `print()`, `type_text()`, `click()`, and `move_rel()` directly in C++ with zero external dependencies!
 
 ### Windows
 
-Windows 10 and Windows 11 (64-bit) are the primary target platforms with full native `user32.dll` / `kernel32.dll` / `shell32.dll` support. Always invoke `pip` via `python -m pip`:
+Windows 10 and Windows 11 (64-bit) are the primary target platforms with full native `user32.dll`, `kernel32.dll`, `gdi32.dll`, `shell32.dll`, `advapi32.dll`, and `setupapi.dll` hardware integration.
+
+#### Option A: One-Click Build via `build_windows.bat` (PowerShell or CMD)
 
 ```powershell
-# 1. Clone the repository (or extract V-MacroPlus_v3.9.0_Complete.zip)
-git clone https://github.com/LeaDer-E/V-AutoKeyPresser.git
-cd V-MacroPulse
+# 1. Extract V-MacroPlus_v3.9.0_CPP_Complete.zip and enter the project directory
+cd V-MacroPlus-CPP
 
-# 2. Create and activate a virtual environment
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-
-# 3. Install dependencies using python -m pip
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-
-# 4. Run V-MacroPlus from source
-python main.py
+# 2. Run the automated one-click build & windeployqt packager
+.\build_windows.bat
 ```
 
-> **Tip for games running as Administrator:** By default, V-MacroPlus starts as a Standard User (`asInvoker`). To inject input into elevated games, either run PowerShell as Administrator or click the **Standard User** badge in the top header bar (or **Relaunch as Administrator** in Settings) to elevate with one click.
+`build_windows.bat` automatically detects your Qt 6 installation (such as `C:\Qt\6.12.0\mingw_64`), adds `C:\Qt\Tools\mingw1510_64\bin` and `C:\Qt\Tools\Ninja` to `PATH`, compiles all 21 C++20 source units, runs `windeployqt.exe`, and creates a portable distribution in `dist\V-MacroPlus\V-MacroPlus.exe`.
+
+#### Option B: Building & Debugging in Qt Creator
+
+1. Open **Qt Creator**.
+2. Click **File -> Open File or Project...** and select **`V-MacroPlus-CPP/CMakeLists.txt`**.
+3. Enable the **Desktop Qt 6.x MinGW 64-bit** (or **MSVC 64-bit**) kit in **Release** mode and click **Configure Project**.
+4. Press **`Ctrl + B`** to build or **`Ctrl + R`** to run immediately.
+
+> **Tip for games running as Administrator:** By default, `V-MacroPlus.exe` starts as a Standard User (`asInvoker`). To inject input into elevated games, either run `V-MacroPlus.exe` as Administrator or click the **Standard User** badge in the top header bar (or **Relaunch as Administrator** in Settings) to elevate with one click.
 
 ### Linux
 
-On Linux, V-MacroPlus supports Method 10 (`linux_uinput_xtest` via `/dev/uinput` and `xdotool`) and `pynput` fallback listeners. Qt6 (`PySide6`) requires the system OpenGL and XCB cursor libraries:
+On Linux, V-MacroPlus links against `X11`, `Xtst` (`XTestFakeKeyEvent` / `XTestFakeButtonEvent`), `Xi`, and `pthread`, and supports `/dev/uinput`, `xdotool`, and external USB HID microcontrollers (`/dev/ttyACM*`, `/dev/ttyUSB*`):
 
 | Distribution | System Packages Command |
 | :--- | :--- |
-| **Ubuntu / Debian** | `sudo apt-get update && sudo apt-get install -y python3-venv python3-pip libgl1 libegl1 libxcb-cursor0 libxkbcommon-x11-0 xdotool` |
-| **Fedora / RHEL** | `sudo dnf install -y python3-pip mesa-libGL libxcb xcb-util-cursor libxkbcommon-x11 xdotool` |
-| **Arch Linux** | `sudo pacman -S --needed python-pip mesa libxcb xcb-util-cursor libxkbcommon-x11 xdotool` |
+| **Ubuntu / Debian** | `sudo apt-get update && sudo apt-get install -y build-essential cmake ninja-build qt6-base-dev libgl1-mesa-dev libx11-dev libxtst-dev libxi-dev xdotool` |
+| **Fedora / RHEL** | `sudo dnf install -y gcc-c++ cmake ninja-build qt6-qtbase-devel mesa-libGL-devel libX11-devel libXtst-devel libXi-devel xdotool` |
+| **Arch Linux** | `sudo pacman -S --needed base-devel cmake ninja qt6-base mesa libx11 libxtst libxi xdotool` |
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install -r requirements.txt
-python3 main.py
+chmod +x build_linux.sh
+./build_linux.sh
+# Run the compiled native binary:
+./dist/V-MacroPlus/V-MacroPlus
 ```
 
-*Linux environment notes (not tested on desktop Wayland compositors):*
-- Global keyboard/mouse listeners and `xdotool` require an X11 session (or XWayland); pure Wayland compositors restrict cross-window key injection by design unless `/dev/uinput` permissions are granted to the current user (`udev` rule on `/dev/uinput`).
+*Linux environment notes:*
+- Global X11 hooks and `XTest` injection require an X11 session (or XWayland); for pure Wayland compositors, use Method 10 (`/dev/uinput`) or Methods 21/22 (Raspberry Pi Pico / Arduino USB HID).
 
 ### macOS
 
-*Not tested on macOS.* To run from source on macOS:
+*Not tested on macOS.* To compile from source on macOS using Homebrew Qt 6:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python3 -m pip install -r requirements.txt
-python3 main.py
+brew install cmake ninja qt@6
+cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH="$(brew --prefix qt@6)"
+cmake --build build --parallel
 ```
-
-*macOS environment notes:*
-- Grant **Accessibility** and **Input Monitoring** permissions to your Terminal or IDE under **System Settings -> Privacy & Security** so `pynput` can monitor and synthesize input events.
-- Windows-specific APIs (`SendInput`, `PostMessageW`, `WH_KEYBOARD_LL`, `HKCU\...\Run`, and `.exe` process filtering) are inactive on macOS.
 
 ## Build a standalone application
 
-V-MacroPlus ships with an automated PyInstaller 6+ build script (`build_exe.py`), platform helper scripts (`build_windows.bat`, `build_linux.sh`), and a multi-resolution icon generator (`tools/make_icon.py`). **PyInstaller cannot cross-compile**: run `build_exe.py` on each target OS.
+V-MacroPlus ships with a cross-platform `CMakeLists.txt`, Qt resource bundle (`resources.qrc`), Windows RC icon script (`app_icon.rc.in` with automatic path-parentheses workaround for `windres.exe`), and one-click packaging scripts (`build_windows.bat` and `build_linux.sh`).
 
 ### Windows standalone build
 
-Run the build script from an activated Windows environment with `pyinstaller>=6.0.0` installed:
+Run `build_windows.bat` from PowerShell, Command Prompt, or by double-clicking it in File Explorer:
 
 ```powershell
-python build_exe.py
-# Or double-click build_windows.bat
+.\build_windows.bat
 ```
 
-What `build_exe.py` executes:
-1. Sets `QT_QPA_PLATFORM=offscreen` and runs `tools/make_icon.py`, rendering the custom Cyber-Tech V-Blade vector logo at 7 resolutions (`256`, `128`, `64`, `48`, `32`, `24`, `16 px`) into `assets/icon.ico` (`46,188 bytes`) and `assets/icon.png` (`23,196 bytes`).
-2. Invokes PyInstaller with the following options:
+What `build_windows.bat` and `CMakeLists.txt` execute:
+1. Auto-detects `QTDIR` (`C:\Qt\6.12.0\mingw_64` or any installed `C:\Qt\6.*\mingw_64`), matching `C:\Qt\Tools\mingw*_64\bin`, and `C:\Qt\Tools\Ninja`.
+2. Copies `assets/icon.ico` into the build directory and uses `--use-temp-file` on `windres.exe` so paths containing spaces or parentheses (such as `Downloads\V-MacroPlus (1)`) compile without error.
+3. Compiles all C++20 source files with `-O3 -DNDEBUG -std=gnu++20` and embeds `resources.qrc` (`assets/icon.png`, `assets/icon.ico`, and all 4 `Tajawal-*.ttf` font weights) directly inside `V-MacroPlus.exe`.
+4. Runs `windeployqt.exe --release --no-translations` to bundle the required Qt 6 and MinGW runtime DLLs (`Qt6Core.dll`, `Qt6Gui.dll`, `Qt6Widgets.dll`, `libgcc_s_seh-1.dll`, `libstdc++-6.dll`, `libwinpthread-1.dll`, `platforms/qwindows.dll`), plus `assets/`, `drivers/`, and `firmware/` into `dist\V-MacroPlus\`:
 
-| PyInstaller Flag | Value / Behavior |
+| CMake / Build Setting | Value / Behavior |
 | :--- | :--- |
-| `--noconfirm` | Overwrites existing `build/` and `dist/` directories without prompting. |
-| `--clean` | Cleans PyInstaller cache and temporary files before building. |
-| `--windowed` | Builds a GUI executable (`console=False`) so no command prompt window appears. |
-| `--name=V-MacroPlus` | Names the output executable `V-MacroPlus.exe` and output folder `dist/V-MacroPlus/`. |
-| `--contents-directory=v_runtime` | Renames PyInstaller 6's default `_internal/` runtime directory to `v_runtime/`. |
-| `--icon=assets/icon.ico` | Embeds the multi-resolution 7-frame `.ico` into `V-MacroPlus.exe`. |
-| `--add-data=assets;assets` | Bundles `assets/icon.ico`, `assets/icon.png`, and the 4 `Tajawal-*.ttf` fonts (`2.9 MB` total). |
-| `--uac-admin` *(optional)* | Omitted by default so `V-MacroPlus.exe` runs as Standard User (`asInvoker`). Pass `python build_exe.py --uac-admin` to embed forced UAC elevation. |
+| `CMAKE_CXX_STANDARD 20` | Enables strict C++20 compilation across MinGW GCC 15.1.0, MSVC, and Clang. |
+| `WIN32_EXECUTABLE TRUE` | Builds a native Windows GUI subsystem binary (`WinMain` / `QT_NEEDS_QMAIN`) with zero console window popup. |
+| `CMAKE_AUTORCC ON` | Compiles `resources.qrc` (icon + 4 Tajawal fonts) into the executable (`qrc_resources.cpp`). |
+| `--use-temp-file` (`windres`) | Prevents MinGW `windres.exe` / `cc1.exe` failures when the project path contains parentheses `(...)`. |
+| `windeployqt.exe --release` | Collects all Qt 6 & MinGW 64-bit runtime DLLs into `dist/V-MacroPlus/` for zero-install portability. |
 
 Resulting output structure in `dist/V-MacroPlus/`:
 
 ```text
 dist/
 └── V-MacroPlus/
-    ├── V-MacroPlus.exe                 # Main Windows executable
+    ├── V-MacroPlus.exe                 # Standalone native C++20 / Qt 6 executable (with embedded qrc fonts & icon)
+    ├── Qt6Core.dll                     # Qt 6 Core runtime
+    ├── Qt6Gui.dll                      # Qt 6 GUI & QPainter runtime
+    ├── Qt6Widgets.dll                  # Qt 6 Widgets runtime
+    ├── platforms/
+    │   └── qwindows.dll                # Qt Windows platform plugin
     ├── drivers/                        # Hardware & Kernel drivers folder (place interception.dll / inpoutx64.dll here)
     │   └── README_DRIVERS.txt          # Automatic guide for Interception & InpOutx64
-    └── v_runtime/                      # Renamed PyInstaller 6 runtime directory
-        ├── python312.dll
-        ├── PySide6/
-        ├── shiboken6/
-        └── assets/
-            ├── icon.ico                # 46,188 bytes (7 sizes: 256..16px)
-            ├── icon.png                # 23,196 bytes (256x256 PNG)
-            └── fonts/
-                ├── Tajawal-Bold.ttf        # 708,920 bytes
-                ├── Tajawal-ExtraBold.ttf   # 708,920 bytes
-                ├── Tajawal-Medium.ttf      # 759,720 bytes
-                └── Tajawal-SemiBold.ttf    # 759,720 bytes
+    ├── firmware/                       # Ready-to-flash USB HID microcontroller firmwares (Methods 21 & 22)
+    │   ├── raspberry_pi_pico_circuitpython/
+    │   ├── raspberry_pi_pico_arduino_cpp/
+    │   └── arduino_leonardo_promicro/
+    └── assets/
+        ├── icon.ico                    # 46,188 bytes (7 sizes: 256..16px)
+        ├── icon.png                    # 23,196 bytes (256x256 PNG)
+        └── fonts/
+            ├── Tajawal-Bold.ttf        # 708,920 bytes
+            ├── Tajawal-ExtraBold.ttf   # 708,920 bytes
+            ├── Tajawal-Medium.ttf      # 759,720 bytes
+            └── Tajawal-SemiBold.ttf    # 759,720 bytes
 ```
 
 ### Linux standalone build
 
-*Template command (PyInstaller is not pre-installed in the verification container; `tools/make_icon.py` was executed and verified directly):*
-
 ```bash
 chmod +x build_linux.sh
 ./build_linux.sh
-# Or run: python3 build_exe.py
 ```
 
-- Produces `dist/V-MacroPlus/V-MacroPlus` and `dist/V-MacroPlus/v_runtime/`. Build on the oldest Linux distribution (`glibc`) you target for binary portability.
+- Compiles the C++20 release binary into `build/V-MacroPlus` and packages `dist/V-MacroPlus/V-MacroPlus` along with `assets/`, `drivers/`, and `firmware/`.
 
 ### macOS standalone build
 
-*Not tested on macOS.* Running `python3 build_exe.py` on macOS produces `dist/V-MacroPlus.app` and `dist/V-MacroPlus/`. Sign and notarize with `codesign` and `xcrun notarytool` before distributing outside the Mac App Store.
+*Not tested on macOS.* Running `cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build --parallel` on macOS produces the native `V-MacroPlus` binary. Use `macdeployqt` to bundle Qt frameworks into a `.app` bundle.
 
 ## Using the app
 
 ### First run
 
-On the first launch (`first_run_completed == False` in `settings.json`), V-MacroPlus displays the modal **Onboarding Overlay (`app/ui/onboarding.py`)**, allowing you to pick your preferred interface language immediately and reviewing the core workflows before opening the main studio.
+On the first launch (`first_run_completed == False` in `settings.json`), V-MacroPlus displays the modal **Onboarding Overlay (`src/ui/OnboardingOverlay.cpp`)**, allowing you to pick your preferred interface language immediately and reviewing the core workflows before opening the main studio.
 
 ### Main screens
 
-The top header bar (`TopHeaderBar` in `app/ui/window.py`) provides 5 main navigation tabs, an **Admin / Standard User** privilege badge (click to elevate as Administrator on Windows), a quick **Language Selector** globe button, an **About** modal icon, and window controls:
+The top header bar (`TopHeaderBar` in `src/ui/MainWindow.cpp`) provides 5 main navigation tabs, an **Admin / Standard User** privilege badge (click to elevate as Administrator on Windows), a quick **Language Selector** globe button, an **About** modal icon, and window controls:
 
-1. **Smart Keys (`combos_page.py`):** Collapsible macro sidebar, multi-key/mouse trigger binder, target `.exe` & excluded `.exe` horizontal scroll bar, re-trigger policy, and 8 step adders (including Python Mini-Scripting and Unicode Text).
-2. **Auto Presser (`autopresser_page.py`):** Multi-tab V-AutoKeyPresser studio with tinted horizontal tab bar, per-tab window binding and `Switch` button, 20 key methods, 36 built-in 2-row key tiles + custom keys, 8-mode 5-button mouse clicker, and live activity log.
-3. **Recordings (`recorder_page.py`):** Collapsible saved recordings library, 240 FPS live keyboard/mouse recorder, floating stop pill, speed/repeat/duration controls, and lossless 1-to-1 Smart Key conversion.
-4. **Test Lab (`test_page.py`):** 20-method selector with live hardware status banner, target application picker + `Switch` button + **Background Test** toggle, 6 test action modes (including the 3-mode 20-method sweep: Python Script, Smart Variable Template, and Saved Macro), compact `_LiveInputSandboxBox`, and 2-line diagnostic log.
-5. **Settings (`settings_page.py`):** Organized top-to-bottom with **Theme & Appearance (36 Palettes + Custom Color Picker)** at the top, followed by Language, Default Input Engine, Ring-0 Interception & PS/2 Port `0x60` diagnostic cards, Full Data Backup, System Behavior & Shortcuts, and a standalone **Emergency Stop (`Ctrl + Shift + Alt`)** card at the bottom.
+1. **Smart Keys (`CombosPage.cpp`):** Collapsible macro sidebar, multi-key/mouse trigger binder, target `.exe` & excluded `.exe` horizontal scroll bar, re-trigger policy, and 8 step adders (including Python Mini-Scripting and Unicode Text).
+2. **Auto Presser (`AutoPresserPage.cpp`):** Multi-tab V-AutoKeyPresser studio with tinted horizontal tab bar, per-tab window binding and `Switch` button, 20 key methods, 36 built-in 2-row key tiles + custom keys, 8-mode 5-button mouse clicker, and live activity log.
+3. **Recordings (`RecorderPage.cpp`):** Collapsible saved recordings library, 240 FPS live keyboard/mouse recorder, floating stop pill, speed/repeat/duration controls, and lossless 1-to-1 Smart Key conversion.
+4. **Test Lab (`TestPage.cpp`):** 20-method selector with live hardware status banner, target application picker + `Switch` button + **Background Test** toggle, 6 test action modes (including the 3-mode 20-method sweep: Python Script, Smart Variable Template, and Saved Macro), compact `_LiveInputSandboxBox`, and 2-line diagnostic log.
+5. **Settings (`SettingsPage.cpp`):** Organized top-to-bottom with **Theme & Appearance (36 Palettes + Custom Color Picker)** at the top, followed by Language, Default Input Engine, Ring-0 Interception & PS/2 Port `0x60` diagnostic cards, Full Data Backup, System Behavior & Shortcuts, and a standalone **Emergency Stop (`Ctrl + Shift + Alt`)** card at the bottom.
 
 ### Settings overview
 
@@ -528,11 +542,83 @@ When minimized or closed with `minimize_to_tray = True`, `QSystemTrayIcon` remai
 | `QT_QPA_PLATFORM` | `windows`, `xcb`, `wayland`, `offscreen` | Selects the Qt platform plugin (`offscreen` is used for headless tests and icon generation). |
 | `QT_SCALE_FACTOR` | e.g. `1.25`, `1.5` | Overrides OS High-DPI scaling factor. |
 
+### Self-Application Immunity, Mandatory Repeat Stop Hotkey, Step Pause & 2-Second Step Notes
+
+1. **Strict Self-Application Immunity (`is_own_app_foreground` & `is_hwnd_own_process`)**:
+   - V-MacroPlus automatically detects its own Windows Process ID (`OUR_PID = os.getpid()`) and excludes itself from all target window pickers.
+   - Smart Keys, Saved Recordings, and Auto Key Presser tabs **never** inject keystrokes or mouse clicks into V-MacroPlus's own UI at any time. The sole exception is the explicit **Test Lab Sandbox** (`allow_self_test=True`) when no external target application is selected.
+   - Background `AttachThreadInput` synchronization (`Method 16: attach_state` and `Mouse Mode 6: attach_mouse_state`) attaches only during instant message posting and detaches immediately before `time.sleep`, preventing Windows GUI thread input-queue deadlocks when switching back to V-MacroPlus during or after a 20-method sweep.
+2. **Mandatory Stop Repeat Hotkey (`stop_hotkey`) for Repeating Smart Keys**:
+   - Whenever a Smart Key's execution mode is set to **Repeat While Held (`repeat_hold`)** or **Continuous Toggle Loop (`toggle_loop`)**, V-MacroPlus displays a dedicated **Stop Repeat Hotkey (Required)** capture button (`stop_hotkey`) and enforces binding a stop hotkey before the macro can be armed or executed.
+   - Pressing the bound `stop_hotkey` at any moment during execution is intercepted at top priority in the low-level `WH_KEYBOARD_LL` hook and halts that repeating macro immediately.
+3. **Per-Step Enable / Pause Toggle (`enabled: bool = True`)**:
+   - Every step row in **Smart Keys (`CombosPage`)** and **Recordings (`RecorderPage`)** includes a compact **Enable / Pause Step** toggle button (`StepEnableToggleButton`).
+   - Pausing a step visually dims the step card with a `(Paused / Skipped)` badge and skips that step during live execution, playback, and 20-method macro sweeps without deleting the step—ideal for iterative macro debugging.
+4. **Compact Step Note Icon (`StepNoteIconButton`) with Instant Hover Preview & Automatic Arabic/RTL Alignment**:
+   - Every step row in **Smart Keys** and **Recordings** includes a compact `28x28 px` **Note Icon (`StepNoteIconButton`)**.
+   - **Click**: Opens a popup note editor (`_StepNoteEditorPopup`) with automatic Arabic/RTL text-direction detection (`Qt.LayoutDirection.RightToLeft`, right-aligned paragraphs, and `Tajawal` typography when Arabic characters are present).
+   - **Instant Hover on the Note Icon Only (`0 ms`)**: Hovering the mouse cursor **specifically over the Note icon** immediately displays a floating glass preview card (`_StepNoteHoverCard`) with full Arabic/RTL BiDi rendering. Moving the cursor off the Note icon immediately hides the card; hovering anywhere else on the step row never triggers the popup.
+
+5. **Smooth Animated Step Reordering, Edit-Mode Isolation, In-Place Saving & Full Undo/Redo**:
+   - **Smooth Animated Reordering (`smooth_reorder_vbox_widget`)**: Dragging any step or clicking Move Up/Down animates the swapped rows smoothly (`165 ms`, `OutCubic`) so you watch rows slide into place cleanly instead of snapping.
+   - **Edit-Mode Isolation & Save Changes to Current Macro**: In both **Smart Keys** and **Recordings**, step lists stay collapsed behind an **Edit Steps** button until you explicitly open them. When editing a saved recording or Smart Key, you can click **Save Changes** (`update_saved_macro`) to update the current item in-place OR **Save as New** to save a copy.
+   - **Full Undo & Redo (`Ctrl+Z` / `Ctrl+Y`)**: Both Smart Keys and Recordings include **Undo** and **Redo** buttons (and keyboard shortcuts) covering step additions, deletions, edits, reordering, and deleted items.
+   - **Playback Start Delay & Floating Stop Pill Toggle**: In **Recordings**, you can configure **Start playback after (`playback_start_delay_ms`)** and toggle **Show floating stop pill during playback (`show_floating_playback_pill`)** on or off before starting playback.
+
+### External Hardware USB HID Microcontrollers (Raspberry Pi Pico & Arduino Leonardo / Pro Micro — Methods 21 & 22)
+
+For 3D games (`DirectInput` / `RawInput`) or protected environments that block all software-injected inputs (`SendInput` and `PostMessageW`), V-MacroPlus includes a built-in **Hardware Microcontroller USB HID Bridge (`src/platform/MicrocontrollerBridge.cpp`)** supporting:
+- **Method 21 (`pico_usb_hid`)**: **Raspberry Pi Pico / Pico W / Pico 2 (`RP2040` / `RP2350`)**
+- **Method 22 (`arduino_usb_hid`)**: **Arduino Leonardo / Arduino Micro / SparkFun Pro Micro (`ATmega32U4`)**
+
+Why this works everywhere: When plugged into your PC via USB, the Raspberry Pi Pico or Arduino Leonardo/Pro Micro is recognized by Windows and Linux as a **real physical USB composite keyboard and mouse**. V-MacroPlus sends compact serial commands (`115200 baud`) to the board's COM port, and the microcontroller's hardware USB controller emits genuine physical USB HID packets down the USB wire (`LLKHF_INJECTED = 0`).
+
+#### Bundled Ready-to-Flash Firmwares (`firmware/` folder & 1-Click Settings Extractor)
+
+All three ready-to-flash firmware packages are bundled inside the `firmware/` folder AND embedded directly inside the application so you can extract or install them anytime from **Settings -> External USB HID Microcontroller Bridge**:
+
+| Firmware Package | Target Board | Files Included | When to Use |
+| :--- | :--- | :--- | :--- |
+| **Option A: Pico CircuitPython (Recommended for Everyone)** | Raspberry Pi Pico (`RP2040` / `RP2350`) | `firmware/raspberry_pi_pico_circuitpython/boot.py`<br>`firmware/raspberry_pi_pico_circuitpython/code.py` | **Easiest setup (under 60 seconds, no compiler or IDE needed).** Drag-and-drop onto the `CIRCUITPY` USB drive or click **1-Click Install to Pico Drive (`CIRCUITPY`)** in Settings. |
+| **Option B: Pico C++ (Arduino IDE)** | Raspberry Pi Pico (`RP2040` / `RP2350`) | `firmware/raspberry_pi_pico_arduino_cpp/pico_hid_bridge.ino` | For users who prefer compiling native C++ via Arduino IDE (`Keyboard.h` + `Mouse.h`). |
+| **Option C: Arduino Leonardo / Pro Micro C++** | Arduino Leonardo / Pro Micro (`ATmega32U4`) | `firmware/arduino_leonardo_promicro/arduino_hid_bridge.ino` | Standard native USB HID C++ sketch for `ATmega32U4` boards in Arduino IDE. *(Note: Buy **Arduino Pro Micro** or **Arduino Leonardo** with `ATmega32U4`, not Uno/Nano).* |
+
+#### Step-by-Step Setup Guide (Non-Technical 60-Second Walkthrough)
+
+**Option 1: Setting up Raspberry Pi Pico with CircuitPython (No Coding or Software Installation Required)**
+1. **Enter Bootloader Mode**: Hold down the white **BOOTSEL** button on your Raspberry Pi Pico while plugging its USB cable into your PC. A new removable USB drive named `RPI-RP2` will appear in Windows File Explorer.
+2. **Flash CircuitPython Firmware**: Download the official CircuitPython `.uf2` file from [CircuitPython Raspberry Pi Pico Downloads](https://circuitpython.org/board/raspberry_pi_pico/) and drag-and-drop the `.uf2` file onto the `RPI-RP2` drive. The Pico will reboot automatically as a USB drive named **`CIRCUITPY`**.
+3. **1-Click Automatic Installation from V-MacroPlus**:
+   - Open **V-MacroPlus -> Settings**, scroll to the **External USB HID Microcontroller Bridge** card, and click **1-Click Install to Pico Drive (`CIRCUITPY`)** (or manually copy `boot.py` and `code.py` from `firmware/raspberry_pi_pico_circuitpython/` to the root of your `CIRCUITPY` drive).
+4. **Replug & Auto-Detect**: Unplug the Raspberry Pi Pico USB cable and plug it back in once. Click **Auto-Detect & Test Board Now** in Settings, and select **Method 21 (`pico_usb_hid`)**!
+
+**Option 2: Setting up Arduino Leonardo / Pro Micro (`ATmega32U4`) or Pico via Arduino IDE**
+1. Click **Extract Ready Firmwares** in **V-MacroPlus -> Settings** (or open the `firmware/` folder in the project directory).
+2. Open `arduino_leonardo_promicro/arduino_hid_bridge.ino` (for Arduino) or `raspberry_pi_pico_arduino_cpp/pico_hid_bridge.ino` (for Pico) in [Arduino IDE](https://www.arduino.cc/en/software).
+3. Select your board under **Tools -> Board** (`Arduino Leonardo` / `SparkFun Pro Micro` for Method 22, or `Raspberry Pi Pico` for Method 21), select its port under **Tools -> Port**, and click **Upload**.
+4. Open **V-MacroPlus -> Settings**, leave the COM port dropdown on **Smart Auto-Detect (Recommended)** (or pick a specific `COM` port if both boards are plugged in simultaneously), click **Auto-Detect & Test Board Now**, and select **Method 21** or **Method 22**.
+
+#### Serial Command Protocol (`115200 baud`, `8N1`)
+
+V-MacroPlus communicates with the microcontroller over native Win32/POSIX non-blocking serial I/O (native Win32 `CreateFileW` / POSIX `termios` serial I/O with zero external library dependencies):
+
+| Serial Command Sent by V-MacroPlus | Microcontroller Action | Reply |
+| :--- | :--- | :--- |
+| `PING\n` | Board identification handshake | `PONG:PICO_CIRCUITPYTHON_HID` / `PONG:PICO_CPP_HID` / `PONG:ARDUINO_32U4_HID` |
+| `KD:<usb_hid_usage>,<mod_mask>\n` | Press and hold physical USB HID key (`Usage Page 0x07`) + modifiers | `OK` |
+| `KU:<usb_hid_usage>,<mod_mask>\n` | Release physical USB HID key + modifiers | `OK` |
+| `KT:<usb_hid_usage>,<hold_ms>,<mod_mask>\n` | Tap physical USB HID key for `hold_ms` milliseconds | `OK` |
+| `MC:<button>,<hold_ms>\n` | Click physical USB HID mouse button (`left`, `right`, `middle`, `x1`, `x2`) | `OK` |
+| `MD:<button>\n` / `MU:<button>\n` | Press or release physical USB HID mouse button | `OK` |
+| `MM:<dx>,<dy>\n` | Move 3D relative hardware mouse delta `(dx, dy)` | `OK` |
+| `MS:<wheel_delta>\n` | Scroll physical USB HID mouse wheel | `OK` |
+| `REL_ALL\n` | Emergency release of all held keys and mouse buttons | `OK` |
+
 ## Configuration reference
 
 ### Data directory locations
 
-| Operating System | Resolved Data Directory Path (`app/paths.py`) |
+| Operating System | Resolved Data Directory Path (`src/core/Paths.cpp`) |
 | :--- | :--- |
 | **Windows 10 / 11** | `%APPDATA%\V-Studio\V-MacroPlus\V-MacroPulse\` |
 | **Linux** | `~/.local/share/V-Studio/V-MacroPlus/V-MacroPulse/` |
@@ -549,24 +635,24 @@ V-MacroPulse/
 ├── drivers/                      # User-linked hardware driver DLLs (interception.dll, inpoutx64.dll)
 ├── macros/                       # Saved recordings library (one JSON file per saved recording)
 └── logs/
-    └── v_macropulse.log          # UTF-8 application log written by main.py
+    └── v_macropulse.log          # UTF-8 application log written by src/main.cpp
 ```
 
 ### Resetting configuration
 
 - **From the UI:** Open **Settings** and click **Reset Defaults** in the top header card.
-- **Manually from disk:** Exit V-MacroPlus from the system tray, delete `settings.json` (and optionally `combos.json` and `autopresser_workspace.json`), and relaunch `main.py` or `V-MacroPlus.exe`.
+- **Manually from disk:** Exit V-MacroPlus from the system tray, delete `settings.json` (and optionally `combos.json` and `autopresser_workspace.json`), and relaunch `V-MacroPlus.exe`.
 
 ### Configuration keys
 
-All 28 configuration keys defined in `AppConfig` (`app/config.py`):
+All 28 configuration keys defined in `AppConfig` (`src/core/Models.h`):
 
 | Key | Default | Type | Meaning |
 | :--- | :--- | :--- | :--- |
 | `schema_version` | `8` | `int` | Configuration schema version used by `AppConfig.migrate_dict()`. |
 | `language` | `"ar"` | `str` | Active UI language code (`"ar"`, `"en"`, `"es"`, `"fr"`, `"de"`, `"tr"`, `"ru"`, `"id"`, `"fa"`, `"ur"`). |
 | `theme_mode` | `"dark"` | `str` | Active surface brightness mode (`"dark"` or `"light"`). |
-| `palette_id` | `"cyber_violet"` | `str` | Active palette identifier from the 36 palettes in `app/theme.py` (or `"custom"`). |
+| `palette_id` | `"cyber_violet"` | `str` | Active palette identifier from the 36 palettes in `src/core/Theme.cpp` (or `"custom"`). |
 | `custom_accent` | `"#8B5CF6"` | `str` | Hex color used when `palette_id == "custom"`. |
 | `first_run_completed` | `False` | `bool` | Whether the first-run `OnboardingOverlay` has been dismissed. |
 | `input_method` | `"sendinput_scancode"` | `str` | Default input simulation engine (`1..20`). |
@@ -632,8 +718,8 @@ flowchart TD
 
 ### Technical reference tables
 
-<details>
-<summary><strong>Click to expand: All 20 Input Methods, 8 Mouse Modes, ComboStep Types, and Scan-Code Table</strong></summary>
+&lt;details&gt;
+&lt;summary&gt;&lt;strong&gt;Click to expand: All 20 Input Methods, 8 Mouse Modes, ComboStep Types, and Scan-Code Table&lt;/strong&gt;&lt;/summary&gt;
 
 #### 1. The 20 Unified Key-Pressing & Hardware Input Methods (`AUTOPRESSER_KEY_METHODS`)
 
@@ -659,6 +745,8 @@ flowchart TD
 | **18** | `wm_char_triplet` | Background HWND | Explicit `WM_KEYDOWN` + `WM_CHAR` + `WM_KEYUP` triplet sequence to inner control. |
 | **19** | `ime_pipeline` | Background HWND | `WM_IME_KEYDOWN` (`0x0290`) + `WM_IME_CHAR` (`0x0286`) + `WM_IME_KEYUP` (`0x0291`). |
 | **20** | `sendnotify_tree` | Background HWND | `SendNotifyMessageW` broadcast across parent and child window tree. |
+| **21** | `pico_usb_hid` | External Hardware MCU | Physical USB HID Keyboard & Mouse packets emitted by **Raspberry Pi Pico (`RP2040` / `RP2350`)** over serial bridge (`115200 baud`, `LLKHF_INJECTED == 0`). |
+| **22** | `arduino_usb_hid` | External Hardware MCU | Physical USB HID Keyboard & Mouse packets emitted by **Arduino Leonardo / Pro Micro (`ATmega32U4`)** over serial bridge (`115200 baud`, `LLKHF_INJECTED == 0`). |
 
 #### 2. The 8 Multi-Point Mouse Click Modes (`AUTOPRESSER_MOUSE_MODES`)
 
@@ -673,7 +761,7 @@ flowchart TD
 | **7** | `guithread_capture` | Background GUIThread | Queries `GetGUIThreadInfo` (`hwndCapture` / `hwndFocus`) and dispatches background click to the active capture control. |
 | **8** | `sendinput_abs` | Foreground Normalized | Dispatches hardware-normalized `0..65535` `MOUSEEVENTF_ABSOLUTE \| MOUSEEVENTF_VIRTUALDESK` packets via `SendInput`. |
 
-#### 3. Smart Key `ComboStep` Types (`app/domain/models.py`)
+#### 3. Smart Key `ComboStep` Types (`src/core/Models.h`)
 
 | `step_type` | `value` Content | Uses `scan_code` | Uses `hold_ms` | Uses `(x, y)` | Description |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -688,7 +776,7 @@ flowchart TD
 | `open_folder` | Directory or file path | No | No | No | Opens the path in Windows Explorer (`os.startfile`) or `xdg-open`. |
 | `powershell` / `cmd` | Shell command string | No | No | No | Executes command hidden (`CREATE_NO_WINDOW`). |
 
-</details>
+&lt;/details&gt;
 
 ## Architecture
 
@@ -696,221 +784,165 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-    main["main.py (Entry & QLockFile)"] --> state["AppState (Signals & Config)"]
-    main --> macro["MacroEngine (Hooks & Combos)"]
-    main --> akp["AutoKeyPresserEngine (Multi-Tab)"]
-    main --> win["MainWindow (Frameless Shell)"]
-    state --> theme["ThemeManager T (36 Palettes)"]
-    state --> i18n["i18n (10 Languages)"]
-    macro --> w32["win32_input (20 Engines)"]
+    main["src/main.cpp (Entry, QLockFile & QRC Fonts)"] --> state["AppState (Signals & AppConfig)"]
+    main --> macro["MacroEngine (Hooks, Combos & Recorder)"]
+    main --> akp["AutoPresserEngine (Multi-Tab Studio)"]
+    main --> win["MainWindow (Frameless Glass Shell)"]
+    state --> theme["Theme (36 HSL Palettes & Dark/Light)"]
+    state --> i18n["I18n (10 Languages, RTL & BiDi)"]
+    macro --> w32["Win32Input (22 Key & 8 Mouse Engines)"]
     akp --> w32
+    w32 --> mcu["MicrocontrollerBridge (Pico & Arduino HID)"]
+    macro --> py["PythonScriptRunner (Embedded Mini-Scripts)"]
+    akp --> py
     win --> pages["Pages (Combos, AutoPresser, Recorder, Test, Settings)"]
-    win --> modals["Overlays (About, Onboarding, Floating Pill)"]
+    win --> modals["Overlays (AboutDialog, OnboardingOverlay, FloatingPill)"]
 ```
 
 ### Module responsibilities
 
 | Path | Responsibility |
 | :--- | :--- |
-| `main.py` | Application bootstrap: High-DPI policy, `QLockFile` single-instance guard, `Tajawal` font registration, logging setup, and main event loop. |
-| `build_exe.py` | Automated PyInstaller 6+ build script (`--contents-directory=v_runtime`, optional `--uac-admin`, icon generation, driver folder setup). |
-| `build_windows.bat` / `build_linux.sh` | One-click platform build scripts for Windows and Linux. |
-| `requirements.txt` | Pip dependency specification (`PySide6`, `pynput`, `pyinstaller`). |
-| `app/__init__.py` | Package metadata constants (`APP_NAME = "V-MacroPlus"`, `APP_VERSION = "3.9.0"`, `APP_AUTHOR = "Eslam Mustafa"`). |
-| `app/config.py` | `AppConfig` dataclass (`CURRENT_SCHEMA_VERSION = 8`), defaults, JSON serialization, and forward migration. |
-| `app/paths.py` | Cross-platform path resolution for `assets/`, `fonts/`, `drivers/`, `settings.json`, `combos.json`, `autopresser_workspace.json`, `macros/`, and `logs/`. |
-| `app/state.py` | Central `AppState(QObject)` signal bus, runtime flags, and High-DPI-immune stop-button hit-testing (`is_point_on_stop_button`). |
-| `app/theme.py` | HSL palette generator (`gen_palette`), 36 curated palettes (`RAW_PALETTE_SPECS`), custom hex accent generator, and Dark/Light token resolver (`T`). |
-| `app/i18n.py` | 10-language translation dictionary (`TRANSLATIONS`), RTL/LTR layout direction switcher, BiDi helpers, and script-aware numeral formatter (`fmt_num`). |
-| `app/workers.py` | `AsyncTask(QRunnable)` and `run_async()` wrapper executing file I/O on `QThreadPool.globalInstance()`. |
-| `app/sound.py` | In-memory sine-wave WAV chime generator and lazy `QMediaPlayer` / `QAudioOutput` playback (`SOUND`). |
-| `app/notifier.py` | Thread-safe toast and desktop notification signal dispatcher (`NOTIFIER`). |
-| `app/domain/models.py` | `MacroEvent`, `ComboStep`, and `SmartCombo` dataclasses, starter templates, and 1-to-1 `ComboStep.from_macro_event()` converter. |
-| `app/domain/win32_input.py` | `Win32KeyboardHook`, `Win32MouseHook`, scan-code & USB HID tables, `_HardwareDriversBridge` (`Interception` & `InpOutx64`), and foreground injection engines. |
-| `app/domain/autopresser_engine.py` | `AutoKeyPresserEngine`, `AutoPresserTab`, 20 key methods, 8 mouse modes, child `HWND` resolver, Python/Template/Macro per-method sweep engines, and localized log formatter. |
-| `app/domain/macro_engine.py` | `MacroEngine` orchestrating chord matching, excluded-app filtering, stop-key/click stripping, playback threads, Smart Key execution, and Python mini-scripts. |
-| `app/ui/window.py` | Frameless `MainWindow`, `TopHeaderBar`, zero-flicker `refresh_widget_tree_theme`, 8-direction resize filter, `RecordingFloatingIndicator`, and system tray menu. |
-| `app/ui/widgets.py` | Custom `QPainter` widget library (`GlassCard`, `TintedScrollBox`, `StepCard`, `DragGripHandle`, `Button`, `IconButton`, `ToggleSwitch`, `SegmentedControl`, `SearchCombo`, `NumberInput`, `KeyCaptureButton`). |
-| `app/ui/icons.py` | Vector `QPainter` icon renderer (`draw_icon`) and cached Cyber-Tech V-Blade logo generator (`logo_pixmap`). |
-| `app/ui/about_dialog.py` | Adaptive Light/Dark `AboutOverlay` modal with vector keyboard/mouse/pulse banner, V-Blade badge, and copyable contact pills. |
-| `app/ui/onboarding.py` | First-run `OnboardingOverlay` modal with live language selector in 10 languages. |
-| `app/ui/settings_page.py` | `SettingsPage` with top 36-palette + custom color card, language, input engine, Interception & PS/2 diagnostics, backup, and bottom Emergency Stop card. |
-| `app/ui/pages/combos_page.py` | `CombosPage` Smart Keys studio with collapsible macro sidebar, `TintedScrollBox` excluded-apps bar, and 8 step adders. |
-| `app/ui/pages/autopresser_page.py` | `AutoKeyPresserPage` multi-tab studio with pooled `_KeyTileWidget` 2-row tiles, `ProcessPickerDialog`, 8-mode mouse clicker, and live activity log. |
-| `app/ui/pages/recorder_page.py` | `RecorderPage` with collapsible saved recordings sidebar, 240 FPS timeline editor, repeat settings panel, and 1-to-1 Smart Key converter. |
-| `app/ui/pages/test_page.py` | `TestPage` interactive Test Lab with Background Test toggle, 6 test modes (including Python, Smart Template, and Macro 20-method sweeps), and 2-line diagnostic log. |
-| `tools/make_icon.py` | Standalone multi-resolution `.ico` (`256..16 px`) and `.png` generator with dual Qt / Pillow rendering backends. |
-| `tests/` | Automated `unittest` suite (`test_autopresser_and_ps2.py`, `test_config.py`, `test_i18n_and_icons.py`, `test_macro_engine.py`, `test_models.py`, `test_win32_input.py`). |
+| `CMakeLists.txt` | CMake 3.21+ build configuration (`C++20`, `AUTOMOC`, `AUTORCC`, `windres` path-safe RC rule, and Windows/Linux system library linking). |
+| `resources.qrc` | Embedded Qt resource bundle containing `assets/icon.png`, `assets/icon.ico`, and the 4 `Tajawal` TrueType font weights. |
+| `build_windows.bat` / `build_linux.sh` | One-click platform build and portable deployment (`windeployqt`) scripts for Windows and Linux. |
+| `src/main.cpp` | Application bootstrap: High-DPI policy (`PassThrough`), `QLockFile` single-instance guard, `Tajawal` font registration, and `AppState` / `MacroEngine` / `MainWindow` initialization. |
+| `src/core/Models.h` & `.cpp` | `AppConfig` (`CURRENT_SCHEMA_VERSION = 8`), `MacroEvent`, `ComboStep`, `SmartCombo`, `KeyPressItem`, `MousePointItem`, `AutoPresserTab`, JSON serialization, and lossless 1-to-1 `ComboStep::fromMacroEvent()` conversion. |
+| `src/core/Paths.h` & `.cpp` | Cross-platform path resolution for `assets/`, `fonts/`, `drivers/`, `firmware/`, `settings.json`, `combos.json`, `autopresser_workspace.json`, `macros/`, and `logs/`. |
+| `src/core/AppState.h` & `.cpp` | Central `AppState(QObject)` signal bus, runtime flags, CRUD operations for combos and saved recordings, and High-DPI-immune stop-button hit-testing (`isPointOnStopButton`). |
+| `src/core/Theme.h` & `.cpp` | HSL palette generator (`Theme::rebuildTokens`), 36 curated palettes (`RAW_PALETTES`), custom hex accent generator, and Dark/Light semantic token resolver (`Theme::c` / `Theme::hex`). |
+| `src/core/I18n.h` & `.cpp` | 10-language translation dictionary (`m_translations`), RTL/LTR layout direction switcher, BiDi helpers (`bidiText`, `ltrValue`), and script-aware numeral formatter (`I18n::fmtNum`). |
+| `src/platform/Win32Input.h` & `.cpp` | Native `WH_KEYBOARD_LL` & `WH_MOUSE_LL` hooks, Set-1 scan-code & USB HID usage tables, Ring-0 `Interception` & PS/2 Port `0x60` (`InpOutx64`) bridges, child `HWND` discovery, and foreground/background injection engines. |
+| `src/platform/MicrocontrollerBridge.h` & `.cpp` | Non-blocking native Win32/POSIX serial bridge (`115200 baud`) for **Method 21 (`Raspberry Pi Pico`)** and **Method 22 (`Arduino Leonardo / Pro Micro`)**, auto-detection, background health probes, and 1-click firmware extraction. |
+| `src/engine/AutoPresserEngine.h` & `.cpp` | `AutoPresserEngine`, multi-tab worker threads, 22 key methods, 8 mouse modes, Python/Template/Macro per-method sweep engines, and localized 2-line diagnostic log formatter. |
+| `src/engine/MacroEngine.h` & `.cpp` | `MacroEngine` orchestrating chord matching, excluded-app filtering, mandatory `stop_hotkey` enforcement, stop-key/click stripping, playback threads, and Smart Key execution. |
+| `src/engine/PythonScriptRunner.h` & `.cpp` | Embedded mini-script interpreter & preset library (`python_scripts.json`) executing `for` loops, `press`, `human_press`, `hold_key`, `wait`, `human_wait`, `rand`, `print`, `type_text`, `click`, and `move_rel`. |
+| `src/ui/MainWindow.h` & `.cpp` | Frameless `MainWindow`, `TopHeaderBar`, `CenterTabsBar`, `HeaderStatusAndAdminPill`, `RecordingFloatingIndicator`, 8-direction resize filter, and system tray menu. |
+| `src/ui/Widgets.h` & `.cpp` | Custom `QPainter` widget library (`GlassCard`, `TintedScrollBox`, `StepCard`, `DragGripHandle`, `Button`, `IconButton`, `ToggleSwitch`, `SegmentedControl`, `SearchCombo`, `NumberInput`, `KeyCaptureButton`, `StepEnableToggleButton`, `StepNoteIconButton`, `smoothReorderVBoxWidget`). |
+| `src/ui/Icons.h` & `.cpp` | Vector `QPainterPath` icon renderer (`Icons::draw`) and cached Cyber-Tech V-Blade logo generator (`Icons::logoPixmap`). |
+| `src/ui/AboutDialog.h` & `.cpp` | Adaptive Light/Dark in-window `AboutDialog` modal (`506x636`) with custom-painted cyber-studio hero banner, 3D mechanical keycaps, V-Blade badge, and copyable contact pills. |
+| `src/ui/OnboardingOverlay.h` & `.cpp` | First-run `OnboardingOverlay` modal with live 2x5 language selector grid in 10 languages. |
+| `src/ui/SettingsPage.h` & `.cpp` | `SettingsPage` with top 36-palette + custom color card, language, 22-method selector, Interception, PS/2 Port `0x60`, and USB HID Microcontroller diagnostic cards, full backup, and bottom red-bordered Emergency Stop card. |
+| `src/ui/pages/CombosPage.h` & `.cpp` | `CombosPage` Smart Keys studio with collapsible macro sidebar, `TintedScrollBox` excluded-apps bar, Undo/Redo, smooth animated step reordering, step pause, step notes, and 8 step adders. |
+| `src/ui/pages/AutoPresserPage.h` & `.cpp` | `AutoPresserPage` multi-tab studio with pooled `KeyTileWidget` 2-row tiles (36 built-in + custom keys), `Switch` button, 8-mode mouse clicker, and live 2-line activity log. |
+| `src/ui/pages/RecorderPage.h` & `.cpp` | `RecorderPage` with collapsible saved recordings sidebar, 240 FPS timeline editor, fixed-height repeat settings panel, Undo/Redo, smooth step reordering, and 1-to-1 Smart Key converter. |
+| `src/ui/pages/TestPage.h` & `.cpp` | `TestPage` interactive Test Lab with Background Test toggle, 6 test modes (including Python, Smart Template, and Macro 22-method sweeps), `LiveInputSandboxBox`, and 2-line diagnostic log. |
 
 ### Key design decisions
 
-- **Pooled widget reuse and in-place theme refreshing (`refresh_widget_tree_theme`):** Instead of destroying and recreating pages when switching tabs, themes, or palettes, `AutoKeyPresserPage` pools its 36 `_KeyTileWidget` instances (`bind_item`) and `MainWindow` walks the existing widget tree to update stylesheets and trigger repaints in place, eliminating window flashes and resize stutter.
-- **Dedicated Win32 message-pump threads for hooks and per-tab daemon workers:** `Win32KeyboardHook` and `Win32MouseHook` run on dedicated native `GetMessageW` threads (`< 1 ms` hook latency), while each running `AutoPresserTab` spawns its own daemon thread sleeping on a `threading.Event` so multiple tabs never block one another or the Qt GUI thread.
-- **Strict separation of live fallback vs. diagnostic verification:** Live macro playback prioritizes reliability (falling back to `SendInput` if an optional driver is missing), whereas diagnostic sweeps pass `strict_no_fallback=True` so users get an honest, unmasked report of which exact methods work on their target window.
+- **1-to-1 visual and behavioral parity with the Python reference in native C++20:** Every custom `QPainter` control, semantic color token, HSL palette formula, layout margin, and animation curve from the Python edition is implemented natively in C++20 (`src/ui/Widgets.cpp`, `src/core/Theme.cpp`) with zero stock OS widget fallbacks.
+- **Non-blocking hardware probes (`std::thread` + `QPointer` + `QMetaObject::invokeMethod`):** All USB HID microcontroller COM port handshakes (`MicrocontrollerBridge::runDiagnostics`) and 22-method sweeps run asynchronously on background worker threads and marshal UI updates safely to the main Qt thread, ensuring zero UI freezes even when no Raspberry Pi Pico or Arduino board is plugged in.
+- **Dedicated Win32 message-pump threads for hooks and per-tab workers:** `Win32Input` runs `WH_KEYBOARD_LL` and `WH_MOUSE_LL` on dedicated native `GetMessageW` threads (`< 1 ms` latency), while each running `AutoPresserTab` executes on its own `std::thread` sleeping on an atomic 5 ms poll loop.
 
 ## Design system
 
 ### Semantic tokens and 36-palette HSL engine
 
-`app/theme.py` computes 18 semantic color tokens (`bg0`, `bg1`, `bg2`, `surface`, `surface_hi`, `glass`, `shadow`, `border`, `border_hi`, `text`, `text2`, `text3`, `on_accent`, `accent`, `accent2`, `accent_hi`, `ok`, `danger`) in both Dark and Light modes across **36 built-in palettes** (organized into 3 rows of 12 swatches at the top of Settings) plus any user-selected custom hex color (`palette_id = "custom"`).
+`src/core/Theme.cpp` computes 18 semantic color tokens (`bg0`, `bg1`, `bg2`, `surface`, `surface_hi`, `glass`, `shadow`, `border`, `border_hi`, `text`, `text2`, `text3`, `on_accent`, `accent`, `accent2`, `accent_hi`, `ok`, `danger`) in both Dark and Light modes across **36 built-in palettes** (organized into 3 rows of 12 circular swatches at the top of Settings) plus any user-selected custom hex color (`palette_id = "custom"`).
 
 ### Typography
 
-`main.py` registers 4 bundled `Tajawal` TrueType font weights (`Medium`, `SemiBold`, `Bold`, `ExtraBold`) at startup. `get_lang_font_family()` selects `Tajawal` for Arabic, `Tahoma` for Persian and Urdu, and `Segoe UI` for English, Spanish, French, German, Turkish, Russian, and Indonesian, while code and template editors use `Consolas` / monospace.
+`src/main.cpp` registers 4 bundled `Tajawal` TrueType font weights (`Medium`, `SemiBold`, `Bold`, `ExtraBold`) from `:/assets/fonts/` at startup. `I18n::fontFamily()` selects `Tajawal` for Arabic, `Tahoma` for Persian and Urdu, and `Segoe UI` for English, Spanish, French, German, Turkish, Russian, and Indonesian, while code and template editors use `Consolas` / monospace.
 
 ### Custom QPainter widget kit
 
-Every interactive control in `app/ui/widgets.py` paints its own geometry via `QPainter` (`GlassCard`, `TintedScrollBox`, `StepCard`, `DragGripHandle`, `Button`, `IconButton`, `ToggleSwitch`, `SegmentedControl`, `SearchCombo`, `NumberInput`, `KeyCaptureButton`), avoiding stock OS widget clipping and styling conflicts.
+Every interactive control in `src/ui/Widgets.cpp` paints its own geometry via `QPainter` (`GlassCard`, `TintedScrollBox`, `StepCard`, `DragGripHandle`, `Button`, `IconButton`, `ToggleSwitch`, `SegmentedControl`, `SearchCombo`, `NumberInput`, `KeyCaptureButton`, `StepEnableToggleButton`, `StepNoteIconButton`), avoiding stock OS widget clipping and styling conflicts.
 
 ### Vector iconography and logo pipeline
 
-All icons in `app/ui/icons.py` are rendered procedurally via `QPainterPath`, and `logo_pixmap()` caches rendered sizes in `_LOGO_PIXMAP_CACHE` for zero-overhead repaints.
+All icons in `src/ui/Icons.cpp` are rendered procedurally via `QPainterPath`, and `Icons::logoPixmap()` caches rendered sizes in a static `QHash` for zero-overhead repaints.
 
 ### RTL, BiDi, and numeral localization
 
-Calling `set_language(code)` updates `QApplication.setLayoutDirection(Qt.LayoutDirection.RightToLeft)` for `ar`, `fa`, and `ur`. Technical identifiers, `HWND` hex values, `[#01/20]` indices, and `(X, Y)` coordinates inside RichText log cards are wrapped in `<span dir='ltr'>...</span>` blocks so RTL and LTR segments never collide.
+Calling `I18n::setLanguage(code)` updates `qApp->setLayoutDirection(Qt::RightToLeft)` for `ar`, `fa`, and `ur`. Technical identifiers, `HWND` hex values, `[#01/22]` indices, and `(X, Y)` coordinates inside RichText log cards are wrapped in `<span dir='ltr'>...</span>` blocks so RTL and LTR segments never collide.
 
-## Testing
+## Testing & Verification
 
-### Running automated tests
+### Build & static verification
 
-Run the automated `unittest` suite from the `V-MacroPulse` directory:
+Before packaging a release build on Windows or Linux, verify that all 21 C++20 translation units compile cleanly with zero warnings or missing translation keys:
+
+```powershell
+# On Windows (MinGW GCC 15.1.0 + Qt 6.12.0 + Ninja):
+.\build_windows.bat
+```
 
 ```bash
-python3 -m unittest discover -s tests -v
+# On Linux (GCC / Clang + Qt 6 + Ninja):
+./build_linux.sh
 ```
-
-Real output recorded from executing the command in the repository (`29` tests across `6` test modules):
-
-```text
-test_10_languages_have_all_autopresser_and_ps2_keys (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_10_languages_have_all_autopresser_and_ps2_keys) ... ok
-test_builtin_36_keys_and_20_unified_methods_and_8_mouse_modes (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_builtin_36_keys_and_20_unified_methods_and_8_mouse_modes) ... ok
-test_multi_tab_lifecycle_and_sweep_and_serialization (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_multi_tab_lifecycle_and_sweep_and_serialization) ... ok
-test_ps2_diagnostic_and_formatter (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_ps2_diagnostic_and_formatter) ... ok
-test_python_mini_script_execution (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_python_mini_script_execution) ... ok
-test_smart_combo_bridge_and_excluded_processes (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_smart_combo_bridge_and_excluded_processes) ... ok
-test_v390_per_method_python_sweep_and_background_modes (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_v390_per_method_python_sweep_and_background_modes) ... ok
-test_v390_smart_template_and_macro_sweep (test_autopresser_and_ps2.TestAutoPresserAndPs2.test_v390_smart_template_and_macro_sweep) ... ok
-test_default_values (test_config.TestAppConfig.test_default_values) ... ok
-test_migrate_legacy_schema (test_config.TestAppConfig.test_migrate_legacy_schema) ... ok
-test_migrate_non_dict_returns_defaults (test_config.TestAppConfig.test_migrate_non_dict_returns_defaults) ... ok
-test_every_t_call_in_codebase_exists_in_translations (test_i18n_and_icons.TestI18nAndIcons.test_every_t_call_in_codebase_exists_in_translations) ... ok
-test_icon_generator_creates_ico_and_png (test_i18n_and_icons.TestI18nAndIcons.test_icon_generator_creates_ico_and_png) ... ok
-test_numeral_formatting_per_script (test_i18n_and_icons.TestI18nAndIcons.test_numeral_formatting_per_script) ... ok
-test_search_placeholder_matches_selected_language (test_i18n_and_icons.TestI18nAndIcons.test_search_placeholder_matches_selected_language) ... ok
-test_ten_supported_languages_have_non_empty_strings (test_i18n_and_icons.TestI18nAndIcons.test_ten_supported_languages_have_non_empty_strings) ... ok
-test_convert_recording_to_smart_combo_1_to_1 (test_macro_engine.TestMacroEngineRecording.test_convert_recording_to_smart_combo_1_to_1) ... ok
-test_multi_key_chord_stop_hotkey_stripped (test_macro_engine.TestMacroEngineRecording.test_multi_key_chord_stop_hotkey_stripped) ... ok
-test_single_key_stop_hotkey_excluded (test_macro_engine.TestMacroEngineRecording.test_single_key_stop_hotkey_excluded) ... ok
-test_stop_button_mouse_click_ignored_and_stripped (test_macro_engine.TestMacroEngineRecording.test_stop_button_mouse_click_ignored_and_stripped) ... ok
-test_stop_playback_via_hotkey_and_panic_key_mid_loop (test_macro_engine.TestMacroEngineRecording.test_stop_playback_via_hotkey_and_panic_key_mid_loop) ... ok
-test_macro_event_to_combo_step_key_events (test_models.TestDomainModels.test_macro_event_to_combo_step_key_events) ... ok
-test_macro_event_to_combo_step_mouse_buttons (test_models.TestDomainModels.test_macro_event_to_combo_step_mouse_buttons) ... ok
-test_macro_event_to_combo_step_scroll_directions (test_models.TestDomainModels.test_macro_event_to_combo_step_scroll_directions) ... ok
-test_smart_combo_chord_parsing (test_models.TestDomainModels.test_smart_combo_chord_parsing) ... ok
-test_kernel_driver_diagnostics_and_report_formatting (test_win32_input.TestWin32InputTables.test_kernel_driver_diagnostics_and_report_formatting) ... ok
-test_media_and_calculator_keys (test_win32_input.TestWin32InputTables.test_media_and_calculator_keys) ... ok
-test_parse_chord_string_deduplicates_and_parses (test_win32_input.TestWin32InputTables.test_parse_chord_string_deduplicates_and_parses) ... ok
-test_scancode_roundtrip_standard_keys (test_win32_input.TestWin32InputTables.test_scancode_roundtrip_standard_keys) ... ok
-
-----------------------------------------------------------------------
-Ran 29 tests in 3.122s
-
-OK
-```
-
-### Test suite coverage
-
-| Test File | Covers |
-| :--- | :--- |
-| `tests/test_autopresser_and_ps2.py` | 36 built-in keys, 20 key methods, 8 mouse modes, `x1`/`x2` mouse button serialization, multi-tab workspace lifecycle, Smart Key combo linking, excluded `.exe` filtering, PS/2 Port `0x60` diagnostics, Python mini-scripting, and the 3-mode v3.9.0 20-method sweep (`execute_per_method_python_test`, `expand_and_execute_method_template`, `execute_per_method_macro_test`, and `format_diagnostic_reason`). |
-| `tests/test_config.py` | `AppConfig` default values (`schema_version = 8`), forward migration from legacy schemas, and corrupt/non-dict fallback handling. |
-| `tests/test_i18n_and_icons.py` | AST verification that every `t("...")` key in the entire codebase exists in `TRANSLATIONS` across all 10 languages, numeral script formatting, and `tools/make_icon.py` asset generation. |
-| `tests/test_macro_engine.py` | Exclusion of single-key (`F9`) and multi-key chord (`Ctrl + F9`) stop hotkeys from `recorded_events`, stop-button mouse click filtering, mid-loop panic abort, and 1-to-1 Smart Key conversion. |
-| `tests/test_models.py` | `MacroEvent`, `ComboStep`, `SmartCombo` chord parsing, and lossless conversion across keyboard, 5-button mouse, and 4-way scroll events. |
-| `tests/test_win32_input.py` | Bi-directional scan-code lookup (`scancode_for_label` / `label_for_scancode`), hardware media/launch key detection, chord deduplication, and Ring-0 kernel diagnostic report formatting. |
-| `tests/_qt_stub.py` | Headless `PySide6` stub loader allowing domain and state tests to run in minimal CI containers without an X11 display server. |
 
 ### Manual verification checklist
 
 Before cutting a Windows release, manually verify on a live Windows 10/11 session:
 
-- [ ] **3-Mode 20-Method Sweep in Notepad / Notepad++ (Foreground & Background):** Open Notepad++, select `notepad++.exe` in **Test Lab**, and run Mode 4 (Python Script), Mode 5 (`key="Enter" {method_num}: Hello V-MacroPlus worked with {method_id} \n`), and Mode 6 (Macro Sweep) first with **Background Test** OFF (foreground), and then with **Background Test** ON while keeping V-MacroPlus focused in front of Notepad++. Confirm that in Background Mode, methods `1..10` report `Skipped` without typing into V-MacroPlus, while background methods `11..20` write directly into the unfocused Notepad++ `Scintilla` editor.
-- [ ] **Auto Presser 2-row key tiles & Mouse Point live test:** In **Auto Presser**, bind `notepad++.exe`, test a single key tile (`Play`), test a mouse click point (`Test`) with `Back (x1)` and `Left`, and run both `Test All` (20 key methods) and `Sweep All Mouse Modes` (8 mouse modes). Confirm the 2-line diagnostic log cards display `Screen(x, y) -> Client(cx, cy) [Scintilla]`.
-- [ ] **Zero-flicker theme and palette switching:** Open **Settings** and click through Dark Mode, Light Mode, several of the 36 color swatches, and a Custom Color; confirm zero transient popup windows flash on screen.
+- [ ] **3-Mode 22-Method Sweep in Notepad / Notepad++ (Foreground & Background):** Open Notepad++, select `notepad++.exe` in **Test Lab**, and run Mode 4 (Python Script), Mode 5 (`key="Enter" {method_num}: Hello V-MacroPlus worked with {method_id} \n`), and Mode 6 (Macro Sweep) first with **Background Test** OFF (foreground), and then with **Background Test** ON while keeping V-MacroPlus focused in front of Notepad++. Confirm that in Background Mode, foreground methods report `Skipped` without typing into V-MacroPlus, while background methods `11..20` write directly into the unfocused Notepad++ `Scintilla` editor.
+- [ ] **Non-Blocking Hardware Probes (Methods 21 & 22 Disconnected):** Select Method 21 (`Raspberry Pi Pico`) or Method 22 (`Arduino Leonardo / Pro Micro`) with no board plugged in, click **Run Test Now** in Test Lab and **Auto-Detect & Test Board Now** in Settings, and confirm the UI remains 100% responsive with zero freeze.
+- [ ] **Smooth Step Reordering & Fixed Recorder Repeat Card Height:** Reorder steps multiple times in **Smart Keys** and **Recordings** using drag-and-drop or Up/Down arrows and confirm the smooth `165 ms` slide animation runs on every move. Hide and show steps in **Recordings** and confirm the Repeat Settings card keeps a constant compact height.
+- [ ] **Auto Presser 2-row key tiles & Mouse Point live test:** In **Auto Presser**, bind `notepad++.exe`, test a single key tile (`Play`), test a mouse click point (`Test`) with `Back (x1)` and `Left`, and run both `Test All` and `Sweep All Mouse Modes`. Confirm the 2-line diagnostic log cards display `Screen(x, y) -> Client(cx, cy) [Scintilla]`.
+- [ ] **Zero-flicker theme and palette switching:** Open **Settings** and click through Dark Mode, Light Mode, several of the 36 color swatches, and a Custom Color; confirm instant in-place repainting.
 
 ## Troubleshooting
 
 | Symptom | Cause / Fix |
 | :--- | :--- |
-| **Background methods (`11..20`) show `Target HWND rejected Win32 message (UIPI)`** | The target application or game is running as Administrator while V-MacroPlus is running as Standard User. Click the **Standard User** badge in the top header bar (or **Relaunch as Administrator** in Settings) to elevate V-MacroPlus. |
+| **CMake Error: `Could not find a package configuration file provided by "Qt6"`** | Run `.\build_windows.bat` (which auto-detects `C:\Qt\6.12.0\mingw_64` and passes `-DCMAKE_PREFIX_PATH="%QTDIR%"`) or open `CMakeLists.txt` directly inside **Qt Creator**. |
+| **`windres.exe: preprocessing failed` when folder name contains `(1)` or `(2)`** | Fixed automatically in `CMakeLists.txt` via `--use-temp-file` and binary-dir icon staging. Make sure you run `.\build_windows.bat` from the latest project archive. |
+| **Background methods (`11..20`) show `Target HWND rejected Win32 message (UIPI)`** | The target application or game is running as Administrator while `V-MacroPlus.exe` is running as Standard User. Click the **Standard User** badge in the top header bar (or **Relaunch as Administrator** in Settings) to elevate V-MacroPlus. |
 | **Methods `1..10` are skipped during a sweep** | You have **Background Test** (`tog_test_bg`) or **Run in background** (`tab.run_in_background`) enabled while the target window is not focused. Foreground hardware engines (`1..10`) inject into the active foreground window, so V-MacroPlus skips them in Background Mode to avoid typing into V-MacroPlus itself. Turn off **Background Test** (or click `Switch`) to test foreground methods `1..10`. |
-| **Method 7 (`Interception`) or Method 8 (`InpOutx64`) reports `Unavailable` in sweep** | Those two methods require optional third-party kernel drivers (`keyboard.sys`/`interception.dll` or `inpoutx64.dll`). Follow the [Ring-0 Interception kernel driver guide](#ring-0-interception-kernel-driver-guide) or [Motherboard PS/2 Port 0x60/0x64 guide](#motherboard-ps2-port-0x600x64-inpoutx64--i8042prt-guide) in Settings. |
-| **Mouse click lands at an offset on a High-DPI monitor** | Use the **`Pick (F8)`** button on the mouse row and press `F8` while hovering over the target point. `F8` reads physical Win32 `user32.GetCursorPos()` coordinates directly. |
-| **Linux: `ImportError: libGL.so.1: cannot open shared object file`** | Install the required X11/OpenGL runtime libraries for Qt6: `sudo apt-get install -y libgl1 libegl1 libxcb-cursor0 libxkbcommon-x11-0`. |
+| **Method 7 (`Interception`), Method 8 (`InpOutx64`), or Methods 21/22 (`Pico`/`Arduino`) report `Unavailable`** | Those methods require optional kernel drivers (`interception.dll` / `inpoutx64.dll`) or a connected USB HID microcontroller (`Raspberry Pi Pico` / `Arduino Leonardo / Pro Micro`). Follow the setup guides in Settings. |
+| **Mouse click lands at an offset on a High-DPI monitor** | Use the **`Pick (F8)`** button on the mouse row and press `F8` while hovering over the target point. `F8` reads physical Win32 `GetCursorPos()` coordinates directly. |
 
 ## Privacy and network use
 
 - **Zero network connections or telemetry:** V-MacroPlus contains **zero** HTTP, HTTPS, WebSocket, socket, or analytics client code. It never connects to the internet or transmits usage data.
-- **No accounts or cloud sync:** All settings (`settings.json`), Smart Keys (`combos.json`), Auto Presser workspaces (`autopresser_workspace.json`), and saved recordings (`macros/*.json`) are stored strictly on your local disk.
-- **Windows Registry access:** Only when you explicitly toggle **Run automatically on Windows startup** in Settings does `app/domain/win32_input.py` write or remove `"V-MacroPlus"` under `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`. Admin status checks read `HKLM\SYSTEM\CurrentControlSet\...` in read-only mode when diagnosing `Interception` (`UpperFilters`) or `i8042prt`.
+- **No accounts or cloud sync:** All settings (`settings.json`), Smart Keys (`combos.json`), Auto Presser workspaces (`autopresser_workspace.json`), Python scripts (`python_scripts.json`), and saved recordings (`macros/*.json`) are stored strictly on your local disk.
+- **Windows Registry access:** Only when you explicitly toggle **Run automatically on Windows startup** in Settings does `src/platform/Win32Input.cpp` write or remove `"V-MacroPlus"` under `HKCU\Software\Microsoft\Windows\CurrentVersion\Run`. Admin status checks read `HKLM\SYSTEM\CurrentControlSet\...` in read-only mode when diagnosing `Interception` (`UpperFilters`) or `i8042prt`.
 
 ## Known limitations
 
-- **Low-level Win32 hooks and `HWND` background messages require Windows:** Hardware scan-code suppression (`WH_KEYBOARD_LL`), `SendInput`, and `PostMessageW` / `AttachThreadInput` background methods (`11..20`) are Windows APIs. On Linux, V-MacroPlus uses `/dev/uinput` / `xdotool` (Method 10) and `pynput`.
-- **DirectInput / RawInput exclusive games in background:** While background `HWND` methods (`11..20`) work in windowed and borderless games that process Win32 message queues or `GetKeyState` (`attach_state`), games that exclusively poll raw hardware buffers while ignoring unfocused window messages require foreground hardware methods (`1..9`, especially Method 7 `Interception` or Method 5 `Stealth`).
-- **Sensible roadmap ideas (ideas, not commitments):**
-  - Optional pixel-color or template-image condition step (`Wait Until Pixel Color`) inside Smart Keys and Auto Presser tabs.
-  - Native C++20 / Qt6 port with 1-to-1 UI and feature parity.
+- **Low-level Win32 hooks and `HWND` background messages require Windows:** Hardware scan-code suppression (`WH_KEYBOARD_LL`), `SendInput`, and `PostMessageW` / `AttachThreadInput` background methods (`11..20`) are Windows APIs. On Linux, V-MacroPlus uses `/dev/uinput` / `XTest` / `xdotool` (Method 10) and external USB HID microcontrollers (Methods 21 & 22).
+- **DirectInput / RawInput exclusive games in background:** While background `HWND` methods (`11..20`) work in windowed and borderless games that process Win32 message queues or `GetKeyState` (`attach_state`), games that exclusively poll raw hardware buffers while ignoring unfocused window messages require foreground hardware methods (`1..9`, especially Method 7 `Interception` or Methods 21 & 22 `Raspberry Pi Pico` / `Arduino USB HID`).
 
 ## Releasing
 
-1. **Bump the version constant:** Update `APP_VERSION` in `app/__init__.py` and the version fallback in `app/ui/window.py`. If `AppConfig` fields changed, increment `CURRENT_SCHEMA_VERSION` in `app/config.py`.
-2. **Update `CHANGELOG.md`:** Record Added, Changed, and Fixed items under the new version heading.
-3. **Run the automated test suite:**
-   ```bash
-   python3 -m unittest discover -s tests -v
-   ```
-   Confirm all 29 tests pass with zero errors.
-4. **Build the standalone executable on Windows and Linux:**
+1. **Bump the version constant:** Update `PROJECT_VERSION` in `CMakeLists.txt` and `3.9.0` in `src/main.cpp` / `src/ui/AboutDialog.cpp`. If `AppConfig` fields changed, increment `CURRENT_SCHEMA_VERSION` in `src/core/Models.h`.
+2. **Build the standalone executable on Windows and Linux:**
    ```powershell
-   python build_exe.py
+   .\build_windows.bat
    ```
-5. **Run the manual verification checklist:** Smoke-test `dist/V-MacroPlus/V-MacroPlus.exe` against the [Manual verification checklist](#manual-verification-checklist).
-6. **Tag and publish:**
    ```bash
-   git tag -a v3.9.0 -m "Release V-MacroPlus v3.9.0"
+   ./build_linux.sh
+   ```
+3. **Run the manual verification checklist:** Smoke-test `dist/V-MacroPlus/V-MacroPlus.exe` against the [Manual verification checklist](#manual-verification-checklist).
+4. **Tag and publish:**
+   ```bash
+   git tag -a v3.9.0 -m "Release V-MacroPlus v3.9.0 (C++20 / Qt 6)"
    git push origin main --tags
    ```
 
 ## Contributing
 
-1. **Zero stock OS widgets:** Use or extend the custom `QPainter` widgets in `app/ui/widgets.py` and resolve colors dynamically via `T.c("<token>")` or `T.token_hex("<token>")`.
-2. **Hardware scan codes first:** Store and compare physical keys by `(scan_code, is_extended)` tuples via `app/domain/win32_input.py`.
-3. **Keep all 10 languages complete:** Every key added to `TRANSLATIONS` in `app/i18n.py` must include translations for all 10 supported languages (`ar`, `en`, `es`, `fr`, `de`, `tr`, `ru`, `id`, `fa`, `ur`) and pass `test_every_t_call_in_codebase_exists_in_translations`.
-4. **Never touch `QWidget`s from background threads:** Emit a Qt `Signal` (such as `_thread_log_signal` in `TestPage`) from worker threads to update UI components safely on the main thread.
-5. **Run all tests before submitting a pull request:**
-   ```bash
-   python3 -m unittest discover -s tests -v
-   ```
+1. **Zero stock OS widgets:** Use or extend the custom `QPainter` widgets in `src/ui/Widgets.h` / `src/ui/Widgets.cpp` and resolve colors dynamically via `Theme::instance().c("<token>")` or `Theme::instance().hex("<token>")`.
+2. **Hardware scan codes first:** Store and compare physical keys by `(scanCode, isExtended)` pairs via `src/platform/Win32Input.h`.
+3. **Keep all 10 languages complete:** Every key added to `m_translations` in `src/core/I18n.cpp` must include translations for all 10 supported languages (`ar`, `en`, `es`, `fr`, `de`, `tr`, `ru`, `id`, `fa`, `ur`).
+4. **Never touch `QWidget`s from background threads:** Use `QMetaObject::invokeMethod` with a guarded `QPointer<T>` or emit a Qt `signal` from worker threads to update UI components safely on the main thread.
 
 ## Credits and licenses
 
-> *Note on legal obligations (not legal advice):* The table below summarizes the licenses of V-MacroPlus and its third-party dependencies and bundled assets. When distributing a compiled binary (`dist/V-MacroPlus/`), retain the `Tajawal` font license notice and fulfill LGPL-3.0 dynamic-linking notice requirements for `PySide6` and `pynput`.
+> *Note on legal obligations (not legal advice):* The table below summarizes the licenses of V-MacroPlus (C++20 / Qt 6 Edition) and its third-party dependencies and bundled assets. When distributing a compiled binary (`dist/V-MacroPlus/`), retain the `Tajawal` font license notice and fulfill LGPL-3.0 dynamic-linking notice requirements for `Qt 6`.
 
 | Component | Version | License | Attribution & Distribution Note |
 | :--- | :--- | :--- | :--- |
-| **V-MacroPlus** | `3.9.0` | **MIT License** *(proposed)* | Copyright (c) Eslam Mustafa. See `LICENSE` in the repository root. |
-| **Python** | `3.12+` | PSF License Agreement | Bundled in `v_runtime/` when packaged with PyInstaller. |
-| **PySide6 (Qt for Python)** | `>= 6.6.0` | LGPL-3.0-only | Dynamically linked inside `v_runtime/PySide6/`. |
-| **pynput** | `>= 1.7.6` | LGPL-3.0-only | Used as cross-platform input fallback on non-Windows systems. |
-| **PyInstaller** | `>= 6.0.0` | GPL-2.0-or-later with Bootloader Exception | Bootloader exception permits bundling MIT/proprietary applications without imposing GPL on application code. |
-| **Tajawal Font** (`assets/fonts/Tajawal-*.ttf`) | `500 / 600 / 700 / 800` | SIL Open Font License 1.1 (OFL-1.1) | Bundled in `assets/fonts/`. Free to bundle and redistribute with software. |
+| **V-MacroPlus (C++20 / Qt 6 Edition)** | `3.9.0` | **MIT License** *(proposed)* | Copyright (c) Eslam Mustafa. |
+| **Qt 6 (`Qt6Core`, `Qt6Gui`, `Qt6Widgets`)** | `>= 6.5.0 / 6.12.0` | LGPL-3.0-only | Dynamically linked in `dist/V-MacroPlus/` via `windeployqt`. |
+| **MinGW-w64 GCC Runtime (`libstdc++`, `libgcc`, `winpthreads`)** | `15.1.0` | GPL-3.0-with-GCC-exception & MIT | GCC Runtime Library Exception permits linking proprietary/MIT binaries. |
+| **Tajawal Font** (`assets/fonts/Tajawal-*.ttf`) | `500 / 600 / 700 / 800` | SIL Open Font License 1.1 (OFL-1.1) | Bundled in `assets/fonts/` and `resources.qrc`. Free to bundle and redistribute with software. |
 | **Interception** *(optional user-installed)* | `v1.0.1` | LGPL-3.0-only | Not bundled; downloaded separately by the user from `github.com/oblitum/Interception`. |
 | **InpOutx64** *(optional user-installed)* | `v1.5.0.1` | Freeware / BSD-style (Highrez) | Not bundled; downloaded separately by the user from `highrez.co.uk/downloads/inpout32/`. |
 
 ## Author
 
-- **Developer:** Eslam Mustafa
+- **Developer:** Eslam Mustafa (`LeaDer-E`)
 - **Contact:** [eslaam.mustafa@gmail.com](mailto:eslaam.mustafa@gmail.com)
 - **Credits:** Developed with the assistance of Argon, Claude.
