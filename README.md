@@ -1,4 +1,8 @@
 <p align="center">
+The Python Version Works Better Than the C++ Untill Now, C++ Will Fixed Soon Inshaa'Allah
+</p>
+
+<p align="center">
 <img src="assets/icon.png" alt="V-MacroPlus Logo" width="130" />
 </p>
 <h1 align="center">
